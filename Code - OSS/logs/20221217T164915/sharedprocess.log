@@ -1,0 +1,5 @@
+2022-12-17 16:49:16.730 [info] Starting worker process with pid 23523 (type: fileWatcher, window: 1).
+2022-12-17 17:11:17.353 [info] Starting worker process with pid 40672 (type: fileWatcher, window: 3).
+2022-12-17 17:11:19.312 [info] Worker process with pid 40672 terminated normally (type: fileWatcher, window: 3).
+2022-12-17 17:11:24.393 [info] Starting worker process with pid 40943 (type: fileWatcher, window: 4).
+2022-12-17 17:11:29.079 [info] Worker process with pid 40943 terminated normally (type: fileWatcher, window: 4).

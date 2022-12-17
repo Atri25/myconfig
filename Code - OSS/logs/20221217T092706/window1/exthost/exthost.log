@@ -1,0 +1,93 @@
+2022-12-17 09:27:08.057 [info] Extension host with pid 2764 started
+2022-12-17 09:27:08.058 [info] Skipping acquiring lock for /home/atri/.config/Code - OSS/User/workspaceStorage/4533a406c14616efec4d7a9084600a09.
+2022-12-17 09:27:08.138 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2022-12-17 09:27:08.139 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2022-12-17 09:27:08.139 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2022-12-17 09:27:08.139 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-17 09:27:08.139 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2022-12-17 09:27:08.668 [error] Activating extension ms-python.python failed due to an error:
+2022-12-17 09:27:08.668 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: telemetryLogger.
+Its package.json#enabledApiProposals-property declares:  but NOT telemetryLogger.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:43999)
+	at Object.createTelemetryLogger (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31959)
+	at new t.BaseTelemetryReporter (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:1130142)
+	at new h (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:1135280)
+	at /home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:695634
+	at c (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:695710)
+	at y.activate (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:157356)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:3096130
+	at async e (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:3095744)
+	at async v.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:7006)
+	at async v.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6969)
+	at async v.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6426)
+2022-12-17 09:27:08.681 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-17 09:27:08.681 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-17 09:27:08.682 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2022-12-17 09:27:08.792 [info] Eager extensions activated
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2022-12-17 09:27:08.803 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.804 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.804 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:08.804 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:09.255 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:09.299 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 09:27:09.406 [error] Activating extension GitHub.vscode-pull-request-github failed due to an error:
+2022-12-17 09:27:09.406 [error] Error: Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: treeItemCheckbox.
+Its package.json#enabledApiProposals-property declares:  but NOT treeItemCheckbox.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:43999)
+	at get onDidChangeCheckboxState [as onDidChangeCheckboxState] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:11329)
+	at new jm (/home/atri/.vscode-oss/extensions/github.vscode-pull-request-github-0.56.0-universal/dist/extension.js:1502:34379)
+	at Kv (/home/atri/.vscode-oss/extensions/github.vscode-pull-request-github-0.56.0-universal/dist/extension.js:1515:7451)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async zv (/home/atri/.vscode-oss/extensions/github.vscode-pull-request-github-0.56.0-universal/dist/extension.js:1515:5643)
+	at async v.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:7006)
+	at async v.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6969)
+	at async v.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6426)
+2022-12-17 09:27:09.670 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:43999)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:51550)
+	at new S (/home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/atri/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-17 09:27:09.670 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: telemetryLogger.
+Its package.json#enabledApiProposals-property declares:  but NOT telemetryLogger.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:43999)
+	at Object.createTelemetryLogger (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31959)
+	at new t.BaseTelemetryReporter (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:1130142)
+	at new h (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:1135280)
+	at /home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:695634
+	at c (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:695710)
+	at y.activate (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:157356)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:3096130
+	at async e (/home/atri/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:3095744)
+	at async v.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:7006)
+	at async v.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6969)
+	at async v.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6426)
+2022-12-17 09:33:58.380 [info] Extension host terminating: received terminate message from renderer
+2022-12-17 09:33:58.388 [info] Extension host with pid 2764 exiting with code 0
