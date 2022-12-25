@@ -1,0 +1,36 @@
+2022/12/25-16:23:41.579 3ef Reusing MANIFEST /home/atri/.config/notion-app/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2022/12/25-16:23:41.580 3ef Recovering log #258
+2022/12/25-16:23:41.581 3ef Reusing old log /home/atri/.config/notion-app/Partitions/notion/Local Storage/leveldb/000258.log 
+2022/12/25-16:24:42.092 455 Level-0 table #262: started
+2022/12/25-16:24:42.096 455 Level-0 table #262: 350197 bytes OK
+2022/12/25-16:24:42.097 455 Delete type=0 #258
+2022/12/25-16:24:42.097 3f0 Compacting 4@0 + 1@1 files
+2022/12/25-16:24:42.151 3f0 Generated table #263@0: 309 keys, 368189 bytes
+2022/12/25-16:24:42.151 3f0 Compacted 4@0 + 1@1 files => 368189 bytes
+2022/12/25-16:24:42.153 3f0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/25-16:24:42.153 3f0 Delete type=2 #262
+2022/12/25-16:24:42.153 3f0 Delete type=2 #257
+2022/12/25-16:24:42.153 3f0 Delete type=2 #255
+2022/12/25-16:24:42.153 3f0 Delete type=2 #253
+2022/12/25-16:24:42.153 3f0 Delete type=2 #259
+2022/12/25-16:25:42.094 3f0 Level-0 table #265: started
+2022/12/25-16:25:42.096 3f0 Level-0 table #265: 11325 bytes OK
+2022/12/25-16:25:42.097 3f0 Delete type=0 #261
+2022/12/25-16:33:48.044 3f0 Level-0 table #267: started
+2022/12/25-16:33:48.046 3f0 Level-0 table #267: 11480 bytes OK
+2022/12/25-16:33:48.047 3f0 Delete type=0 #264
+2022/12/25-16:47:06.874 461 Level-0 table #269: started
+2022/12/25-16:47:06.876 461 Level-0 table #269: 16430 bytes OK
+2022/12/25-16:47:06.878 461 Delete type=0 #266
+2022/12/25-17:13:48.834 3f0 Level-0 table #271: started
+2022/12/25-17:13:48.836 3f0 Level-0 table #271: 16512 bytes OK
+2022/12/25-17:13:48.838 3f0 Delete type=0 #268
+2022/12/25-17:13:48.838 461 Compacting 4@0 + 1@1 files
+2022/12/25-17:13:48.843 461 Generated table #272@0: 329 keys, 369393 bytes
+2022/12/25-17:13:48.843 461 Compacted 4@0 + 1@1 files => 369393 bytes
+2022/12/25-17:13:48.844 461 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/25-17:13:48.844 461 Delete type=2 #265
+2022/12/25-17:13:48.844 461 Delete type=2 #263
+2022/12/25-17:13:48.844 461 Delete type=2 #269
+2022/12/25-17:13:48.844 461 Delete type=2 #271
+2022/12/25-17:13:48.844 461 Delete type=2 #267

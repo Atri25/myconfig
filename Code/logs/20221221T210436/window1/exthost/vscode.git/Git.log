@@ -1,0 +1,6 @@
+2022-12-21 21:04:38.814 [info] Log level: Info
+2022-12-21 21:04:38.814 [info] Validating found git in: "git"
+2022-12-21 21:04:38.814 [info] Using git "2.39.0" from "git"
+2022-12-21 21:04:38.817 [info] > git rev-parse --show-toplevel [21ms]
+2022-12-21 21:04:39.137 [info] > git rev-parse --git-dir --git-common-dir [316ms]
+2022-12-21 21:04:39.141 [info] Open repository: /home/atri/.config/qtile

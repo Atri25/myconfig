@@ -1,0 +1,5 @@
+2022/12/22-14:35:23.795 1be0 Reusing MANIFEST /home/atri/.config/notion-app/Partitions/notion/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/22-15:37:00.963 de7d Level-0 table #5: started
+2022/12/22-15:37:00.964 de7d Level-0 table #5: 11327 bytes OK
+2022/12/22-15:37:00.966 de7d Delete type=0 #3
+2022/12/22-15:37:00.966 de7d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

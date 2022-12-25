@@ -1,0 +1,8 @@
+2022-12-25 17:24:00.066 [info] Starting worker process with pid 42084 (type: fileWatcher, window: 1).
+2022-12-25 17:24:02.391 [info] Getting Manifest... pkief.material-icon-theme
+2022-12-25 17:24:03.479 [info] Installing extension: pkief.material-icon-theme
+2022-12-25 17:24:05.480 [info] Extracted extension to /home/atri/.vscode/extensions/.7744a07c-02dd-4c76-a02f-4849608da1f7: pkief.material-icon-theme
+2022-12-25 17:24:05.483 [info] Renamed to /home/atri/.vscode/extensions/pkief.material-icon-theme-4.23.1
+2022-12-25 17:24:05.484 [info] Extracting completed. pkief.material-icon-theme
+2022-12-25 17:24:05.488 [info] Extension installed successfully: pkief.material-icon-theme
+2022-12-25 17:24:05.502 [info] Marked extension as uninstalled pkief.material-icon-theme-4.23.0

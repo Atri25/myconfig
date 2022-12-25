@@ -1,0 +1,139 @@
+{
+   "checksum": "b562005a71b050bd7ad969cd963f94cb",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13314972047850279",
+            "date_last_used": "0",
+            "guid": "cb462f28-1df9-4850-bdd9-a28ad1f9caf2",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(797) Maths - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLxyGaR3hEy3hMp_J9qFG7KYLFOmhkp4-C"
+         }, {
+            "date_added": "13284534442466300",
+            "date_last_used": "0",
+            "guid": "46f4026a-c748-4aa7-b58c-d42e9c34d63d",
+            "id": "6",
+            "name": "Running WSL GUI Apps on Windows 10 - Microsoft Tech Community",
+            "type": "url",
+            "url": "https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242"
+         }, {
+            "date_added": "13284831839785485",
+            "date_last_used": "0",
+            "guid": "db42c2a0-0a77-4c18-8372-d515c4422fe2",
+            "id": "7",
+            "name": "Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS. · Issue #5363 · microsoft/WSL",
+            "type": "url",
+            "url": "https://github.com/microsoft/WSL/issues/5363"
+         }, {
+            "date_added": "13286876251795202",
+            "date_last_used": "0",
+            "guid": "2fd2a4d1-e66a-4ef1-b7e8-d28d6d458b87",
+            "id": "8",
+            "name": "Chrome Web Store - Extensions",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/category/extensions?hl=en&gclid=Cj0KCQiAoY-PBhCNARIsABcz771SouPeEsSOjoQv77JbfO80siHTIU4ZppPEN0kw3pFxNZxxJsf0fMUaAqYCEALw_wcB"
+         }, {
+            "date_added": "13287325625446185",
+            "date_last_used": "0",
+            "guid": "20f19f22-5832-42e0-9c28-7b7703c88875",
+            "id": "9",
+            "name": "CISCE",
+            "type": "url",
+            "url": "https://www.cisce.org/publicationdetail.aspx?id=92"
+         }, {
+            "date_added": "13310397843595389",
+            "date_last_used": "0",
+            "guid": "a6f1c58e-302e-4c2d-8d31-963121d6a0f8",
+            "id": "10",
+            "name": "Node.js 17.0.1 Gatsby error - \"digital envelope routines::unsupported ... ERR_OSSL_EVP_UNSUPPORTED\" - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/69665222/node-js-17-0-1-gatsby-error-digital-envelope-routinesunsupported-err-os"
+         }, {
+            "date_added": "13310668134428670",
+            "date_last_used": "0",
+            "guid": "0d2f390b-c1f7-4d95-89a7-4ede744dccc3",
+            "id": "11",
+            "name": "(116) react django 29 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=G4APjJjEFIE&list=PLo7TNe_pEoMWFXTyHkx1vP9OhzIDZV4a_&index=29&ab_channel=AdefemiGreat"
+         }, {
+            "date_added": "13312002585344390",
+            "date_last_used": "0",
+            "guid": "5a5727df-a5a3-4c87-b0ca-43c8ee4c098f",
+            "id": "12",
+            "name": "To-Do | By Status",
+            "type": "url",
+            "url": "https://www.notion.so/ec76549f93724af59dcc8f8d7ce8a741?v=4cb67a7a6a6e4e8a95bd8461a565b89d"
+         }, {
+            "date_added": "13312282726786405",
+            "date_last_used": "0",
+            "guid": "1ce154ab-10a1-403b-a170-34d7d7d08e4c",
+            "id": "13",
+            "name": "Telegram: Contact @djdheeed",
+            "type": "url",
+            "url": "https://t.me/djdheeed"
+         }, {
+            "date_added": "13312900190483373",
+            "date_last_used": "0",
+            "guid": "a4621cc3-9a46-40f6-a6cc-e38e0b296d3b",
+            "id": "14",
+            "name": "localhost / localhost / phy_wellbeing / accounts_useraccount | phpMyAdmin 5.2.0",
+            "type": "url",
+            "url": "http://localhost/phpmyadmin/index.php?route=/sql&db=phy_wellbeing&table=accounts_useraccount&pos=0"
+         }, {
+            "date_added": "13314638497082634",
+            "date_last_used": "0",
+            "guid": "d59556e8-ec27-4a89-a8d3-38e23a858bf5",
+            "id": "15",
+            "name": "(748) How to Dual Boot Arch Linux and Windows 11/10 [ 2022 ] - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=JRdYSGh-g3s"
+         }, {
+            "date_added": "13315140923169684",
+            "date_last_used": "0",
+            "guid": "764e5f9b-494a-4c95-b716-d6b036fac8d4",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Calendar - Saturday, 10 December 2022, today",
+            "type": "url",
+            "url": "https://calendar.google.com/calendar/u/0/r"
+         } ],
+         "date_added": "13315822222786903",
+         "date_last_used": "0",
+         "date_modified": "13315140923169684",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13315822222786904",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13315822222786904",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CsUBCqQBCIiBAhKdARI8CAISOAoGCgJibRABEDMaEgmA3rlUFfAFACGA3rlUFfAFADIYChYIAhEbKMhkFfAFABgAIQAAAAAAAAAAIABI3cDJodIwcN3AyaHSMJIBRwpFChZhbm5vdGF0aW9uX2Nocm9tZV9zeW5jEgU1MSFiZBoSCYBzdF8V8AUAEYBzdF8V8AUAKYY4yGQV8AUAMIDn0fvVgvwCugECCAESACABKhh0elVmWjlYZWVqS0swNkhWU2NZSlZ3PT0SwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp4NldsSHNmVXVWZmxjaDhvMUhreUk0Ry8zUVFEd1VXQ0syN2hndVVjalM4NFloM1ZaZWdXVHBpWVNncjgrb21FK3RqZVc5NTkxWCtVVnlDTzZUVGZvb3ZvMDA4dz09GAAgACgAMOHT7ffSgvwCOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS8wEIDxLuAQocek1TYjQydnBaWDBFaHhYRi9FSXdlbHFUWStzPRJmWjpBRHF0QVp6MEFhY0kvOUdpbDJoWXRQTVRQWllkYjdpVE1wK2hlOGdqUS90OGJFOHM3bEVvcWtxZDNobFZUUmhQZ2RjNnc1RzZlaUtJcmlmcm16VVhLK2k4bklGZEJKRWlCQT09GAAgACgAML/e1vfO8/sCOLq61+zNMEC6utfszTBKHGFXZ2VsZ3RRWVN6dDQ0Q2ozL2dtREdGY29FZz1aJiIk/////wAAAAVqZFF6NGtQb0FnTzZYbEpuT1Q4L0NBOWpwODQ9ZTj5OTMS9AEIDhLvAQocTGRxLzVMUDBiWGIwbSt6aEZUa3NMdnY3QzRRPRJmWjpBRHF0QVp6MEFhY0kvOUdpbDJoWXRQTVRQWllkQzZ4a0IwNHpuQkprSHkxNE1nTUswK09rWFBJMHY4aXo2UHlIVitYc1g0Z1cybDl1aFVNK3ZKOFNFY3RkT0ZQMk44MTFWUT09GAAgACgAML/e1vfO8/sCOJPS5a/HMECT0uWvxzBKHHhOT2pIa2FCcUpkRzk5ZTZ6Y0NUSjJZVFM5Yz1aJyIl/////wAAAAT+OWEwN2RJc2pLU0lJWStXNWo3VzJJR0NOUHpBPWV3WKdcEvQBCA0S7wEKHGQrRmVHcHRCeTdNTDN6Y2ZQeDI3QUhCb0Iyaz0SZlo6QURxdEFaejBBYWNJLzlHaWwyaFl0UE1UUFpZZDRYTFZLMlBGVGhWelpIYUlVdTlhUVorN0YrYk1TOXFTMVVyVTA2czZFRzdpMHpJZEVVSkxGQ0JzMzRQSk5WRjZVTmc0RWc9PRgAIAAoADCe0L+V0Zv7AjiC066JxTBAgtOuicUwShx0Znd5bUF1M3A5Ukh3cGd0cFp5UURrbUdhQlE9WiciJf////8AAAAE/Wt4bUlYM0hKd09nVHk3UzNOZW1hQmxkM0cyND1lAAAAABL0AQgQEu8BChxBRUtRMFBtd25FRWxxb0laRm80UENwenJGRkk9EmZaOkFEcXRBWnowQWFjSS85R2lsMmhZdFBNVFBaWWRHQm51blNFakdTbW5CWVdXWFVyZ1RHWmlEYVRsNFU4Vkd0TU4yWW9qQk9JR0JIelp2NVQ4TWtNajMvR2J0L3JYakZnSUdRPT0YACAAKAAwv97W987z+wI4oo6h3M8wQKKOodzPMEocQ05pWjdTK1Fmdm0zWE9hYUVtNlBiYWFKcFBnPVonIiX/////AAAABbUxVzUxREFvR3pWQTF4bGVFZkY2ci81NUpQUnc9ZWphm70S7wEIBRLqAQocTTBkZStlcVFrYXJ3ZmwzSmVQRFRXR1JMd3BJPRJmWjpBRHF0QVp6MEFhY0kvOUdpbDJoWXRQTVRQWllkbEpFVWpmYy9JK2lkbUgxbjlQM2w5dHVVbzBDaHBtdE52L3hCRmxJL3pqZzJtcXBtazI0L21aLzNpcFFUZlByQk5NNDUvUT09GAAgAigCMOe+/fjSgvwCOOrj3YvPMEDmq5Kh0jBKHERtN2RVRmg2c1FMVXpjNjJoMTZQVTcwOXI0RT1aIiIg////6EhzOUxPbmRkNVh4NG1YbThZZGgrOStIYmE2WT1lOPk5MxL0AQgMEu8BChxJN1ptS2ZwRGU1WjBDbjNMQmRodUpNK09FRk09EmZaOkFEcXRBWnowQWFjSS85R2lsMmhZdFBNVFBaWWRXLzBEczJ3b3FLMmpIVlhTd1lFTWZjWFdwMmdNc09wWHJyZUFuS09KNVp1am0vanBFa0FmL0xvVjczRk1WTUlHSzdLV2lnPT0YACAAKAAwv97W987z+wI4gJbkg8QwQICW5IPEMEocRXlzenBVOXRUUVN2WitwM0lKZERmamlya1lBPVonIiX/////AAAABPtmM0IyT2E0SmJDUTZhUkMwVFBMekM2Wm1sUTA9Zap4IAIS9AEICxLvAQocckdXQ01WeDg5eFh4clhuV2c5Y3VDbjlqRGVFPRJmWjpBRHF0QVp6MEFhY0kvOUdpbDJoWXRQTVRQWllkcnFSdHhmTGNROWF2NXl5K08vYmlPVkJOM08vU3J5ck9WcEg5eTl6VTZub2pBWks3cDBEM1BjVmtnSktvZFZvWEorWkxNQT09GAAgAigCMOe+/fjSgvwCOJzgu4e/MEDnq5Kh0jBKHDcyRGdPZ2RFWHJ1MEVPKzVQZE1PUXJCTTB0WT1aJyIl/////wAAAATuRldLeTVjdHRtMldqcjBpZDBiMTdLU2dDZkNNPWU4+TkzEvQBCAoS7wEKHHU1a25weTFSMmx2blBDVDliL1llRThFekFyWT0SZlo6QURxdEFaejBBYWNJLzlHaWwyaFl0UE1UUFpZZGVCVFQ5TXJsM1dpa1B6cUtJNk9XR1dmVklreEVLcndLZEZLekJqK3BDemg5aTRmM2FueWdHTkZUOFBxMkRaMUxYMmtlWkE9PRgAIAIoAjDnvv340oL8AjiLwcqGvjBA56uSodIwShxiRHhYYTdKR0l1WC9TU05UMzFva1JOLy9sM2c9WiciJf////8AAAAE3WNxRmhzM3hEYWdONklEK0hwVSsxV2JRcnpPUT1lD8w0FBL0AQgJEu8BChxuUFRTM3Nud0h4eVpvZlhlN1hLWE91TUlGbFE9EmZaOkFEcXRBWnowQWFjSS85R2lsMmhZdFBNVFBaWWRGZVRZS24wMXBlcVprSVgvc0o5cHMva2pjK1J1Ykl1SUI5UXV2QUx4c3dLYmNVTEJtd2xERGpCUmtxNTdMTGV1ZkNyZWJBPT0YACACKAIw5779+NKC/AI45ojyjOgvQOerkqHSMEoceU1jb1hVQ1g3R2dMS3BBT0xTNnd0L1QydEE0PVonIiX/////AAAABLpESVd0NkNIQmQzMlpwZk9UakU3dCtoK2hFc2s9ZTsXg5QS7wEIBxLqAQocZk9HVnlsTVduSmhjNzZNODZnY25wV3FXMk9NPRJmWjpBRHF0QVp6MEFhY0kvOUdpbDJoWXRQTVRQWllkRWY0ZFVaL0hvUTlTYjVvekV3eHpCVklNSVZmRS8rYUlSQytzWm1wVXkwd2JRTmVmUHVPZ284RWtoMVhKNXdWRUpjUlFndz09GAAgAigCMOe+/fjSgvwCOKm84efeL0Dmq5Kh0jBKHGdjOU5vb1MwK1B2Y3FaUUMvUU91cVpSMWRxMD1aIiIg////+3k5OU11T2dlcE9QMk80UjZvckg2dmJtait2dz1lCAxKLhLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnp5NjBxYUg0TW9YWCt3S3ZmYVJ6U3l6eGk4aUUrNml0Vm9kSHk2d3Fhc01RWmVBZEU5WmNpVTVrL1o5SFBRcUJPMWMraGZNN1lQUVE4Nmt2c1hMSXd5S2E5a1JBPT0YACAAKAAw4dPt99KC/AI4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWngzNU82MldtMVlHb1pCSUJTSWd1ZkVUbm1STXJ5UHNhSjNsM0FHVHNNTms2Vi8xb1l0Q28xTllDVHkraDFQL3F1RTBFWGYYACAAKAAw4dPt99KC/AI4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABLzAQgIEu4BChxHM0VhOFpNaE8wQmwwRTRxb214QlZpby9KV1k9EmZaOkFEcXRBWnowQWFjSS85R2lsMmhZdFBNVFBaWWRpQzVFdU4wc05jZ1pDK1FkbndEc0U3UDYvMFFsR2EyNjFhaUNtMDZqOHgxT3JreTczd0NUZFRKa1lacUlrNHRNN29nNUtnPT0YACACKAIw5779+NKC/AI4k73OtuYvQOarkqHSMEocUFQ0WmdZcFhTMlF1WXdvUjJ2UGtkMGFTdlZzPVomIiT/////AAAABHRrT3h4TmJCQ3pCUWxPaXhRV2hkcnZkMzZzbz1lAB9HWxLvAQgGEuoBChxiL0VsbkVCazFIRXlFZTZQdU01MkE0Rk8zWDg9EmZaOkFEcXRBWnowQWFjSS85R2lsMmhZdFBNVFBaWWRLc0sxZ1ZnR1B1eVpGVEU0enNwN0M5dCs1WkJVUmdOaUtqZk80cDYrMU1icldnaTl1d01MdFF3MkkrWThlNUJENU5WZHNRPT0YACACKAIw5779+NKC/AI44uP52d0vQOarkqHSMEocTXNJZ3V2ZEFWNXBZM2dONkQwNG13UTRiQm9nPVoiIiD////2Yk1mK0JFQzZlVGUrMk9TRVpRSkc0WnRpSXAwPWWnHNIZMAE4AA==",
+   "version": 1
+}

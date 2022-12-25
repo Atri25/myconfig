@@ -1,0 +1,20 @@
+[Info  - 2:22:12 PM] (5248) Pylance language server 2022.12.20 (pyright 621d886b) starting
+[Info  - 2:22:12 PM] (5248) Server root directory: /home/atri/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist
+[Info  - 2:22:12 PM] (5248) Starting service instance "qtile"
+[Info  - 2:22:12 PM] (5248) Notebook support: LSP
+[Info  - 2:22:12 PM] (5248) Interactive window support: LSP
+[Info  - 2:22:12 PM] (5248) No configuration file found.
+[Info  - 2:22:12 PM] (5248) No pyproject.toml file found.
+[Info  - 2:22:12 PM] (5248) Setting pythonPath for service "qtile": "/bin/python"
+[Warn  - 2:22:12 PM] (5248) stubPath /home/atri/.config/qtile/typings is not a valid directory.
+[Info  - 2:22:12 PM] (5248) Assuming Python version 3.10
+[Info  - 2:22:12 PM] (5248) Assuming Python platform Linux
+[Info  - 2:22:12 PM] (5248) Searching for source files
+[Info  - 2:22:12 PM] (5248) Found 12 source files
+[Info  - 2:22:12 PM] (5248) Background analysis(1) root directory: /home/atri/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist
+[Info  - 2:22:12 PM] (5248) Background analysis(1) started
+[Info  - 2:22:12 PM] (5248) Indexer background runner(2) root directory: /home/atri/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist (index)
+[Info  - 2:22:12 PM] (5248) Indexing(2) started
+[Info  - 2:22:12 PM] (5248) scanned(2) 154 files over 1 exec env
+[Info  - 2:22:13 PM] (5248) indexed(2) 87 files over 1 exec env
+[Info  - 2:22:13 PM] (5248) Indexing finished(2).

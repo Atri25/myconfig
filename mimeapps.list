@@ -1,5 +1,5 @@
 [Added Associations]
-image/jpeg=org.gnome.eog.desktop;google-chrome.desktop;gimp.desktop;mirage.desktop;
+image/jpeg=org.gnome.gThumb.desktop;org.gimp.GIMP.desktop;org.gnome.eog.desktop;google-chrome.desktop;gimp.desktop;mirage.desktop;
 image/webp=gimp.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-3H6X70.desktop;userapp-Telegram Desktop-ETLMA1.desktop;
 x-scheme-handler/http=firefox.desktop;
@@ -8,6 +8,7 @@ application/octet-stream=brave-browser.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-02JMC1.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-02JMC1.desktop;
 video/x-matroska=vlc.desktop;
+text/x-python=code.desktop;
 
 [Default Applications]
 image/jpeg=mirage.desktop
@@ -33,3 +34,4 @@ x-scheme-handler/tg=userapp-Telegram Desktop-ETLMA1.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-02JMC1.desktop
 message/rfc822=userapp-Thunderbird-02JMC1.desktop
 x-scheme-handler/mid=userapp-Thunderbird-02JMC1.desktop
+x-scheme-handler/notion=notion-app.desktop

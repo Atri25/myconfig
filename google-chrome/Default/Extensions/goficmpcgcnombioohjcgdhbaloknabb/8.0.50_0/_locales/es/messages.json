@@ -1,0 +1,830 @@
+{
+   "R": {
+      "message": "L"
+   },
+   "RW": {
+      "message": "L/E"
+   },
+   "aceptar": {
+      "message": "Aceptar"
+   },
+   "addKanbanNote": {
+      "message": "Añade nota en esta columna"
+   },
+   "anexaFichero": {
+      "message": "Anexar fichero"
+   },
+   "anular": {
+      "message": "Anular Invitación"
+   },
+   "anularBot": {
+      "message": "Anular"
+   },
+   "anyadirNotas": {
+      "message": "Añadir notas"
+   },
+   "asignarUrl": {
+      "message": "Asignar a "
+   },
+   "automatico": {
+      "message": "Automático"
+   },
+   "aviso": {
+      "message": "Aviso el "
+   },
+   "avisoBackup": {
+      "message": "Estas usando la aplicación sin estar registrado y sin usar la sincronización con el servidor, de esta manera las notas se guardan en local. Aunque no es habitual, los datos guardados en el navegador se pueden perder en actualizaciones del navegador o al hacer limpieza del sistema.\u003Cbr>\u003Cbr>Para evitar problemas, sino quieres registrarte y seguir trabajando en local \u003Cb>haz copias de seguridad periódicamente a un fichero\u003C/b> con la opción de backup y restaurar de la barra de menú \u003Cspan class='hacer-backup-aviso'>\u003Cimg src='appimg/floppy.png'>\u003C/span>"
+   },
+   "avisoMarcadores": {
+      "message": "El uso de marcadores para sincronizar va a dejar de tener soporte. En las nuevas versiones no existirá esta opción. Los usuarios que lo usen hasta ahora podrán seguir haciéndolo, pero en nuevas instalaciones no existirá esa opción. Si esto te ocasiona algún problema escríbe a \u003Ca href='mailto:admin@noteboardapp.com?Subject=Sincronización%20por%20marcadores'>admin@noteboardapp.com\u003C/a>"
+   },
+   "ayudaBusqueda": {
+      "message": "Texto o >num o \u003Cnum"
+   },
+   "ayudaEditarNota": {
+      "message": "También puedes editar notas haciendo doble click en el contenido de la nota a editar."
+   },
+   "ayudaMovil": {
+      "message": "En pantalla táctil para mover una nota toca primero la nota para mostrar los iconos y arrastra desde la parte superior"
+   },
+   "ayudaNuevaNota": {
+      "message": "También puedes crear notas haciendo doble click en el lugar del tablón donde la quieras."
+   },
+   "ayudaOrdenacion": {
+      "message": "Has activado la ordenación automática, vuelve a usar el mismo botón para desactivarla. Si pones una \"chincheta\" a una nota no le afectará la ordenación y se quedará fija donde la pongas"
+   },
+   "ayudaPresentacion": {
+      "message": "Con el modo presentación puedes ver las notas como si fuera una presentación con diapositivas. \u003Cb>Pulsa ESC para salir\u003C/b>. Las notas cambian cada 5 segundos pero puedes avanzar con los cursores derecho e izquierdo.\u003Cbr>\u003Cbr>Si publicas el tablón puedes elegir la opción de hacerlo en modo presentación e incluso incrustarlo en una web en este modo.\u003Cbr>\u003Cbr>Haz click \u003Ca href='https://www.noteboardapp.com/newversionslides' target='_blank'>aqui\u003C/a> para más detalles\u003Cbr>\u003Cbr>Esta funcionalidad está en fase de pruebas, algunas notas pueden verse cortadas."
+   },
+   "ayudaZoom": {
+      "message": "Para quitar el zoom vuelve a hacer click en el icono o presiona ESC. También puedes hacer doble click en la parte superior de la nota para maximizar y minimizarla."
+   },
+   "backupBot": {
+      "message": "Copia de seguridad"
+   },
+   "backupError": {
+      "message": "Error al importar"
+   },
+   "backupNow": {
+      "message": "Hacer copia de seguridad ahora"
+   },
+   "backupSuccess": {
+      "message": "Importación realizada con éxito"
+   },
+   "boardRename": {
+      "message": "Renombra tablón "
+   },
+   "borraCompartir": {
+      "message": "Dejar de compartir con este usuario"
+   },
+   "borraTablon": {
+      "message": "Borra tablón"
+   },
+   "borrar": {
+      "message": "Borrar"
+   },
+   "borrarNotasConectar": {
+      "message": "Borrar notas y conectar"
+   },
+   "botonAnexa": {
+      "message": "Anexa fichero a nota"
+   },
+   "botonBorrar": {
+      "message": "Borrar Nota"
+   },
+   "botonBorrarTodo": {
+      "message": "Borrar Notas"
+   },
+   "botonEdit": {
+      "message": "Editar Nota"
+   },
+   "botonFoto": {
+      "message": "Crea Nota con Imagen"
+   },
+   "botonPaint": {
+      "message": "Dibuja Nota"
+   },
+   "botonVaciarPapelera": {
+      "message": "Vaciar Papelera"
+   },
+   "buttonDemo": {
+      "message": "Botón sólo de ayuda, usa los auténticos de la parte superior"
+   },
+   "cambF": {
+      "message": "Fuente"
+   },
+   "cambFondo": {
+      "message": "Fondo de tablón"
+   },
+   "cambZoom": {
+      "message": "Aumenta/Reduce tamaño de fuente por defecto"
+   },
+   "cameraBot": {
+      "message": "Crea Nota con una foto de la cámara"
+   },
+   "cancelar": {
+      "message": "Cancelar"
+   },
+   "capturaAreaPantalla": {
+      "message": "Selecciona área de pestaña activa (CTRL + SHIFT + 2)"
+   },
+   "capturaAreaPantallaEntera": {
+      "message": "Selecciona área de escritorio (CTRL + SHIFT + 3)"
+   },
+   "capturaPantalla": {
+      "message": "Captura pantalla"
+   },
+   "colorCustom": {
+      "message": "Elige el color que quieras"
+   },
+   "colorNotepad": {
+      "message": "Estilo libreta"
+   },
+   "colorTransparente": {
+      "message": "Transparente"
+   },
+   "compartidoCon": {
+      "message": "Tablón compartido con:"
+   },
+   "compartir": {
+      "message": "Compartir tablón"
+   },
+   "compartirNota": {
+      "message": "Compartir nota"
+   },
+   "conectar": {
+      "message": "Conectar"
+   },
+   "confSincro": {
+      "message": "Si te registras \u003Cb>GRATIS\u003C/b> en \u003Ca href='https://www.noteboardapp.com' target='_blank'>www.noteboardapp.com\u003C/a> podrás tener las notas sincronizadas en diferentes instalaciones de la extensión o acceder a ellas desde cualquier navegador (incluido móviles) desde la \u003Ca href='https://www.noteboardapp.com' target='_blank'>web\u003C/a> y también desde la aplicación android de \u003Ca href='https://play.google.com/store/apps/details?id=com.oscardr.tablonnotas' target='_blank'>Google Play \u003C/a> o la \u003Ca href='https://apps.apple.com/us/app/note-board-app/id899770084' target='_blank'>aplicación iOs\u003C/a>.\u003Cbr>\u003Cbr>"
+   },
+   "confirmaPassword": {
+      "message": "Confirmar Password"
+   },
+   "confirmacionMover": {
+      "message": "¿Seguro que quieres mover la nota al tablón?"
+   },
+   "confirmacionMoverPapelera": {
+      "message": "¿Seguro que quieres mover la nota a la papelera?"
+   },
+   "confirmacionMoverVarias": {
+      "message": "¿Seguro que quieres mover las notas seleccionadas al tablón?"
+   },
+   "confirmacionMoverVariasPapelera": {
+      "message": "¿Seguro que quieres mover las notas seleccionadas a la papelera?"
+   },
+   "confirmar": {
+      "message": "Seguro que quieres borrar la nota?"
+   },
+   "confirmarBorrado": {
+      "message": "\u003Cbr>¿Seguro que quieres \u003Cb>BORRAR TODAS LAS NOTAS\u003C/b>?\u003Cbr>\u003Cbr>\u003Cbr>Si los datos no estan sincronizados con el servidor \u003Cb>PERDERÁS TODAS TUS NOTAS\u003C/b>.\u003Cbr>\u003Cbr>Esta opción está pensada para inicializar la extensión por si quieres empezar de nuevo o conectarte con otro usuario."
+   },
+   "confirmarBorradoTodoFicheros": {
+      "message": "\u003Cbr>¿Seguro que quieres \u003Cb>BORRAR TODAS LAS NOTAS Y LOS FICHEROS SUBIDOS AL SERVIDOR\u003C/b>?\u003Cbr>\u003Cbr>\u003Cbr>\u003Cb>PERDERÁS TODAS TUS NOTAS Y FICHEROS SUBIDOS\u003C/b>.\u003Cbr>\u003Cbr>Esta opción está pensada para inicializar la extensión y borrar tus datos."
+   },
+   "confirmarCompartirTab": {
+      "message": "¿Seguro que quieres dejar de compartir el tablón con este usuario?"
+   },
+   "confirmarLogout": {
+      "message": "\u003Cbr>¿Seguro que quieres \u003Cb>borrar el contenido local?\u003C/b>\u003Cbr>\u003Csmall>(NO se borraran las notas del servidor).\u003C/small>\u003Cbr>\u003Cbr>\u003Cbr>Esta opción además de desconectar la sincronización con el servidor borra las notas del disco duro. Para recuperar tus notas deberás hacer login otra vez."
+   },
+   "confirmarOrdenacion": {
+      "message": "¿Seguro que quieres activar la ordenación automática?.\u003Cbr>\u003Csmall>Vuelve a hacer click en este botón cuando quieras desactivarla.\u003C/small>"
+   },
+   "confirmarPapelera": {
+      "message": "Seguro que quieres borrar todas las notas de la papelera de forma permanente"
+   },
+   "confirmarTab": {
+      "message": "Seguro que quieres borrar el tablón? Si hay notas se borrarán."
+   },
+   "connectTool": {
+      "message": "Crea conexiones entre notas"
+   },
+   "connectionSoloUna": {
+      "message": "Sólo tienes una nota en este tablón, no puedes conectarla con ninguna otra."
+   },
+   "copiaPortapapeles": {
+      "message": "Copia la nota al portapapeles"
+   },
+   "copiadoPortapapeles": {
+      "message": "Contenido de la nota copiado al portapapeles"
+   },
+   "creaPop": {
+      "message": "Crea un popup con esta nota"
+   },
+   "crop_clickAndDrag": {
+      "message": "Arrastra y selecciona"
+   },
+   "datosPerfilBot": {
+      "message": "Datos usuario"
+   },
+   "decrease": {
+      "message": "Reduce tamaño de fuente por defecto"
+   },
+   "defaultFont": {
+      "message": "Fuente por defecto"
+   },
+   "demoUser": {
+      "message": "Estas usando la versión demo, los cambios que realices no se guardarán"
+   },
+   "demoUserKanban": {
+      "message": "En este tablero Kanban público puedes ver en qué errores o ideas nuevas se está trabajando y además a modo experimental se permite que cualquiera pueda crear notas en la primera y segunda columna para reportar errores o dar ideas nuevas para mejorar Note Board. Si la idea o error no se aceptan iran a la columna 'Rejected' junto a una explicación.\u003Cb>Sólo puedes crear o editar notas en la primera o segunda columna\u003C/b>."
+   },
+   "demoUserUpload": {
+      "message": "Estas usando la versión demo, no puedes subir ficheros al servidor"
+   },
+   "descErrorConex": {
+      "message": "Error al conectar con el servidor, nota guardada localmente, se volverá a intentar en unos segundos..."
+   },
+   "desconectar": {
+      "message": "Desconectar"
+   },
+   "desconectarBorrar": {
+      "message": "Desconectar y borrar"
+   },
+   "dias": {
+      "message": "dias"
+   },
+   "dobleClickGuardar": {
+      "message": "También puedes guardar la nota haciendo doble click en el tablón o con CTRL + S"
+   },
+   "drawLabel": {
+      "message": "Dibujar"
+   },
+   "duplica": {
+      "message": "Clonar nota"
+   },
+   "editandoYa": {
+      "message": "No se pueden editar dos notas a la vez"
+   },
+   "eligeTablonDestino": {
+      "message": "Elije el tablón donde mostrar las notas del invitador si hay notas las compartirás con tu amigo. Puedes elegir crear un nuevo tablón para compartir."
+   },
+   "elijeDestino": {
+      "message": "Elige tablón destino: "
+   },
+   "errorConex": {
+      "message": "Error conexión"
+   },
+   "errorCopiaPortapapeles": {
+      "message": "Error al copiar al portapapeles"
+   },
+   "errorShareUrl": {
+      "message": "Error al obtener la Url para compartir"
+   },
+   "escLec": {
+      "message": "Escritura y lectura"
+   },
+   "escribeEtiqueta": {
+      "message": "Etiqueta (opcional)"
+   },
+   "escribeReview": {
+      "message": "\u003Cbr>Si te gusta esta extensión y crees que lo merece \u003Ca href='https://chrome.google.com/webstore/detail/note-board/goficmpcgcnombioohjcgdhbaloknabb/reviews' target='_blank'>vota con 5 estrellas en la Chrome Store\u003C/a> por favor.\u003Cbr>\u003Cbr>\u003Csmall>(Si no te apetece escribir una opinión puedes dejar el campo vacío y poner sólo el número de estrellas que quieras)\u003C/small>\u003Cbr>\u003Cbr>!Gracias! 😃"
+   },
+   "escribeReviewEdge": {
+      "message": "\u003Cbr>Si te gusta esta extensión y crees que lo merece \u003Ca href='https://microsoftedge.microsoft.com/addons/detail/note-board-sticky-notes/ehnmbncdeiinoaojbfjldmghkhjhlkli' target='_blank'>vota con 5 estrellas en el Microsoft Store\u003C/a> por favor.\u003Cbr>\u003Cbr>\u003Csmall>(Si no te apetece escribir una opinión puedes dejar el campo vacío y poner sólo el número de estrellas que quieras)\u003C/small>\u003Cbr>\u003Cbr>!Gracias! 😃"
+   },
+   "escribeReviewFirefox": {
+      "message": "\u003Cbr>Si te gusta esta extensión y crees que lo merece \u003Ca href='https://addons.mozilla.org/es/firefox/addon/board-notes/' target='_blank'>vota con 5 estrellas en el Firefox Store\u003C/a> por favor.\u003Cbr>\u003Cbr>\u003Csmall>(Si no te apetece escribir una opinión puedes dejar el campo vacío y poner sólo el número de estrellas que quieras)\u003C/small>\u003Cbr>\u003Cbr>!Gracias! 😃"
+   },
+   "existenNotas": {
+      "message": "\u003Ch3>Los tablones no están vacios\u003C/h3>.Al conectarte o registrarte con otro usuario puedes elegir entre borrar esas notas o añadirlas al usuario nuevo"
+   },
+   "extName": {
+      "message": "Note Board - Tablón de Notas"
+   },
+   "facebookLoginAviso": {
+      "message": "Para hacer login de facebook tendrás que aceptar permisos de acceso a historial de navegación para detectar el token de acceso a facebook que llega en una URL"
+   },
+   "flechaMuestra": {
+      "message": "Muestra tablones"
+   },
+   "flechaOculta": {
+      "message": "Oculta tablones"
+   },
+   "fondo99": {
+      "message": "Fondo Personal"
+   },
+   "fondo99Ayuda": {
+      "message": "Haz click aquí para poner la imagen que quieras de fondo"
+   },
+   "friendsBot": {
+      "message": "Usuarios que comparten este tablón"
+   },
+   "full": {
+      "message": "Si quieres que se abra la extensión a pantalla completa por defecto vuelve a hacer click en el botón de maximizar.Para volver al funcionamiento normal haz click otra vez en el mismo botón"
+   },
+   "goPremium": {
+      "message": "Hacerse Premium"
+   },
+   "grabaVideoPantalla": {
+      "message": "Graba video de pantalla (CTRL + SHIFT + 4)"
+   },
+   "guardaImagen": {
+      "message": "Guarda imagen directamente en tablón:"
+   },
+   "guardaImagen2": {
+      "message": "Guarda imagen en "
+   },
+   "guardaImagenPantalla": {
+      "message": "Guarda imagen"
+   },
+   "guardaLimpio": {
+      "message": "Guarda contenido limpio en Tablón de Notas"
+   },
+   "guardaLimpio2": {
+      "message": "Guarda contenido limpio en "
+   },
+   "guardaLink": {
+      "message": "Guarda link en Tablón de Notas"
+   },
+   "guardaLink2": {
+      "message": "Guarda link en "
+   },
+   "guardaPage": {
+      "message": "Guarda url de la página en Tablón de Notas"
+   },
+   "guardaPage2": {
+      "message": "Guarda url de la página en "
+   },
+   "guardaPageS": {
+      "message": "Guarda página con captura en  Tablón de Notas"
+   },
+   "guardaPageS2": {
+      "message": "Guarda página con captura en "
+   },
+   "guardaSeleccion": {
+      "message": "Guarda selección en Tablón de Notas"
+   },
+   "guardaSeleccion2": {
+      "message": "Guarda selección en "
+   },
+   "hayQueLoguearse": {
+      "message": "Para poder compartir un tablón hay que estar sincronizando las notas.\u003Cbr>Haz login o registrate por favor."
+   },
+   "haztePremium": {
+      "message": "Haz click aquí para información sobre premium"
+   },
+   "helpKanbanResize": {
+      "message": "Para volver a poner la anchura automática por defecto haz doble click en la zona de cambio de tamaño de cualquier columna."
+   },
+   "helpLinksMovil": {
+      "message": "Toca en el icono -> para confirmar navegar al link"
+   },
+   "helpTablones": {
+      "message": "Haz doble click para cambiar el nombre del tablon.\u003Cbr> Arrastra para cambiar el orden de los tablones.\u003Cbr> Para borrar un tablón usa el botón con el icono de la papelera de la previsualización"
+   },
+   "helpZoomDblClick": {
+      "message": "Haz doble click en el selector de zoom para volver al valor por defecto"
+   },
+   "imageSave_abrir": {
+      "message": "Abrir"
+   },
+   "imageSave_addLink": {
+      "message": "¿Añadir link "
+   },
+   "imageSave_anyadirEdicion": {
+      "message": "Añadir en nota en edición"
+   },
+   "imageSave_anyadirImagenNota": {
+      "message": "Añadir imagen a nota "
+   },
+   "imageSave_anyadirImagenNotaError": {
+      "message": "Esa nota no existe, en total tienes $numNotas$ notas",
+      "placeholders": {
+         "numNotas": {
+            "content": "$1"
+         }
+      }
+   },
+   "imageSave_anyadirNota": {
+      "message": "O añade la imagen a la nota número:"
+   },
+   "imageSave_ayudaaAnyadir": {
+      "message": "El número de lo nota lo puedes saber al pasar el ratón por la parte superior de una nota."
+   },
+   "imageSave_conLink": {
+      "message": "Imagen con link"
+   },
+   "imageSave_conLinkTexto": {
+      "message": "Añadir texto con link"
+   },
+   "imageSave_creaNota": {
+      "message": "Crear nota con la imagen seleccionada en el tablón:"
+   },
+   "imageSave_crear": {
+      "message": "Crear Nota"
+   },
+   "imageSave_imagenCapturada": {
+      "message": "Imagen capturada"
+   },
+   "imageSave_instructions": {
+      "message": "Puedes crear la nota con la imágen como un link a la url donde se haya capturado o añadir el link en modo texto a la nota. Si estás editando alguna nota se mostrará la opción de añadir la imagen a esa nota."
+   },
+   "imageSave_noAbrir": {
+      "message": "No abrir Note Board al crear la nota"
+   },
+   "imageSave_numNota": {
+      "message": "Número nota"
+   },
+   "imageSave_placeHolderTexto": {
+      "message": "Opcionalmente puedes añadir texto a la nota"
+   },
+   "imageSave_tablon": {
+      "message": "Tablón"
+   },
+   "imageSave_title": {
+      "message": "Crear nota con área seleccionada"
+   },
+   "imageSave_volver": {
+      "message": "Volver a seleccionar"
+   },
+   "increase": {
+      "message": "Aumenta tamaño de fuente por defecto"
+   },
+   "inicializarTablon": {
+      "message": "¿Inicializar Tablón de Notas?"
+   },
+   "invitaAmigoFb": {
+      "message": " te invita a compartir un tablón de notas contigo."
+   },
+   "invitaciones": {
+      "message": "Invitaciones"
+   },
+   "invitacionesBot": {
+      "message": "Invitaciones pendiaentes de aceptar"
+   },
+   "invitacionesPend": {
+      "message": "Invitaciones pendientes"
+   },
+   "invitationLabel": {
+      "message": "Invitación"
+   },
+   "irLogin": {
+      "message": "Ir a Login"
+   },
+   "irRegistro": {
+      "message": "Ir a Registro"
+   },
+   "kanbanBot": {
+      "message": "Crear tablón Kanban"
+   },
+   "labelAdd": {
+      "message": "Nuevo Tablón"
+   },
+   "lec": {
+      "message": "Lectura"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "loginBot": {
+      "message": "Login / Registro"
+   },
+   "loginSinPermisos": {
+      "message": "No se puede acceder al servidor sin permiso"
+   },
+   "loguearseParaPublicar": {
+      "message": "Con esta opción puedes hacer públicos los tablones que elijas en una URL única de tu usuario.\u003Cbr>Cuando un tablón es público puede ser visto por cualquiera pero sólo tú puedes modificarlo.Para ello debes estar conectado.\u003Cbr>Haz login o registrate por favor.\u003Cbr>\u003Cbr>Visita la \u003Ca href=\"https://www.noteboardapp.com/galleryPage\" target=\"_blank\">galeria\u003C/a> de la web para ver ejemplos de tablones públicos."
+   },
+   "manutsiLink": {
+      "message": "Fondo diseñado por Manutsi, click aquí para ver su web"
+   },
+   "masInfo": {
+      "message": "Más detalles"
+   },
+   "maxApp": {
+      "message": "Abrir como popup (La próxima vez que se abra la extensión)"
+   },
+   "maxBot": {
+      "message": "Maximizar a una pestaña nueva"
+   },
+   "mensEdit": {
+      "message": "Doble click para editar"
+   },
+   "mensErrorConexion": {
+      "message": "Ha habido un error al conectar con el servidor, la nota se ha guardado localmente y se ha marcado como no sincronizada. Se volverá a intentar la sincronización periódicamente. Si el error se ha producido en una modificación es posible que la nota se duplique para evitar pérdidas de información en la sincronización con otras instalaciones."
+   },
+   "mensaje": {
+      "message": "Mensaje"
+   },
+   "minBot": {
+      "message": "Ejecutar como popup en siguiente ejecución"
+   },
+   "modoLectura": {
+      "message": "No se puede editar, nota compartida en modo lectura."
+   },
+   "moverNota": {
+      "message": "Mover nota a otro tablón"
+   },
+   "muestraBotones": {
+      "message": "Muestra botones"
+   },
+   "newSharedBoard": {
+      "message": "Tablón nuevo creado \u003Cb>$nombreTablon$\u003C/b>. \u003Cbr>En este tablón podrás ver las notas compartidas con \u003Cb>$user$\u003C/b>",
+      "placeholders": {
+         "nombreTablon": {
+            "content": "$1"
+         },
+         "user": {
+            "content": "$2"
+         }
+      }
+   },
+   "newTabFeature": {
+      "message": "Nueva opción para abrir Note Board como nueva pestaña"
+   },
+   "newversion": {
+      "message": "Nueva versión, haz click en \"más detalles\" para ver las novedades"
+   },
+   "noEncontrado": {
+      "message": "No hay ninguna nota con ese texto"
+   },
+   "noMasEspacio": {
+      "message": "No hay más espacio para guardar datos en local, prueba a vaciar la papelera, borrar alguna nota con alguna captura de imágen o mejor aún regístrate gratis para guardar las notas en www.noteboardapp.com"
+   },
+   "noMoreSpace": {
+      "message": "No te queda más espacio en el servidor, subscríbete a usuario Premium para tener más espacio. Más información \u003Ca href='https://www.noteboardapp.com/subscribe' target='_blank'>aquí\u003C/a>"
+   },
+   "noMostrarMas": {
+      "message": "no mostrar más"
+   },
+   "noVolverMostrar": {
+      "message": "No volver a mostrar"
+   },
+   "nopublico": {
+      "message": "Este usuario no tiene tablones públicos"
+   },
+   "nopublico2": {
+      "message": "No tienes tablones públicos"
+   },
+   "notasWebPermisos": {
+      "message": "Tienes notas en web creadas, para poder insertarlas en sus webs correspondientes tendrás que aceptar los permisos de acceso necesarios."
+   },
+   "noteboardmobile": {
+      "message": "Accede a tus notas desde el móvil"
+   },
+   "nuevaNotaImagenWeb": {
+      "message": "Nota con esta imagen en esta Web"
+   },
+   "nuevaNotaSelecWeb": {
+      "message": "Nota con texto seleccionado en esta Web (beta)"
+   },
+   "nuevaNotaWeb": {
+      "message": "Nueva Nota en esta Web (CTRL+SHIFT+1)"
+   },
+   "nuevaNotaWeb2": {
+      "message": "Nueva Nota Web"
+   },
+   "nuevaNotaWeb3": {
+      "message": "Nueva Nota Web en "
+   },
+   "nuevoPost": {
+      "message": "Nueva Nota"
+   },
+   "ocultaBotones": {
+      "message": "Oculta botones"
+   },
+   "opcionPremium": {
+      "message": "Esta opción es para usuarios premium. Más información \u003Ca href='https://www.noteboardapp.com/subscribe' target='_blank'>aquí\u003C/a>."
+   },
+   "opcionesSinc": {
+      "message": "Opciones de Sincronización"
+   },
+   "optionsBot": {
+      "message": "Opciones"
+   },
+   "ordena": {
+      "message": "Ordena"
+   },
+   "ordenaAutomatico": {
+      "message": "Ordenación Automática"
+   },
+   "ordenaBot": {
+      "message": "Ordenación automática"
+   },
+   "ordenaKanban": {
+      "message": "La ordenación automática no tiene sentido en un tablón kanban"
+   },
+   "origenExtension": {
+      "message": "Estas viendo tus notas desde la \u003Cb>VERSIÓN WEB\u003C/b> posiblemente por error porque has llegado aquí desde la extensión Chrome. Si lo que realmente quieres es acceder a la extensión haz click en el icono de la barra de extensiones."
+   },
+   "originalNewTab": {
+      "message": "Abre nueva pestaña original"
+   },
+   "panelBotDiv": {
+      "message": "Seleccionar y editar tablones"
+   },
+   "papelera": {
+      "message": "Papelera"
+   },
+   "password": {
+      "message": "Password"
+   },
+   "permisoAnexarFicheros": {
+      "message": "Para subir ficheros al servidor hay que aceptar permisos de acceso a www.noteboardapp.com"
+   },
+   "permisoEditarImagenes": {
+      "message": "Para editar imágenes es necesario dar permiso a la extensión para acceder al servidor www.noteboardapp.com para guardar la imágen editada."
+   },
+   "permisoImagenes": {
+      "message": "Para mostrar una imagen en una notificación hay que activar permisos de acceso. Si lo deniegas sólo se mostrará el texto."
+   },
+   "permisoImagenesFondo": {
+      "message": "Para usar imágenes externas en notas o como fondo hay que activar permisos de acceso a www.noteboardapp.com"
+   },
+   "permisoModificarImagenes": {
+      "message": "Para editar imágenes externas hay que activar el permiso de acceso a www.noteboardapp.com"
+   },
+   "permisos": {
+      "message": "Permisos"
+   },
+   "permisosVideo": {
+      "message": "\u003Cb>Al salvar la nota tendrás que aceptar permisos de acceso al servidor ya que los videos no se pueden guardar en local.\u003C/b> Ten en cuenta que los videos ocupan mucho espacio."
+   },
+   "pipVideo": {
+      "message": "Ver video en modo picture in picture"
+   },
+   "pluginBot": {
+      "message": "Plugins"
+   },
+   "politicaLabel": {
+      "message": "He leido la \u003Ca href='https://www.noteboardapp.com/chromeExtensionPrivacy' target='_blank' >política de privacidad\u003C/a>"
+   },
+   "presentacionSinNotas": {
+      "message": "El tablón está vacio, no hay notas para la presentación"
+   },
+   "primeraOrdenacion": {
+      "message": "Has activado la ordenación automática, vuelve a hacer click en el botón cuando quieras desactivarla."
+   },
+   "programaAgenda": {
+      "message": "Elige un dia/hora para que se abra un popup con esta nota. También puedes programar el envio de un mail o un aviso al móvil con Pushbullet."
+   },
+   "programaAviso": {
+      "message": "Programa aviso"
+   },
+   "publicBot": {
+      "message": "Publicar Tablón"
+   },
+   "publishLabel": {
+      "message": "Publicar"
+   },
+   "quitaAnuncios": {
+      "message": "Quitar publicidad"
+   },
+   "quitaPin": {
+      "message": "Quita chincheta"
+   },
+   "rechazar": {
+      "message": "Rechazar"
+   },
+   "recicla": {
+      "message": "Restaurar"
+   },
+   "recordarAgenda": {
+      "message": "Recordar mañana"
+   },
+   "refreshBot": {
+      "message": "Sincroniza las notas con otras instalaciones"
+   },
+   "registrateParaSincro": {
+      "message": "Registrate gratis para sincronizar las notas en otros ordenadores"
+   },
+   "registro": {
+      "message": "Registrarse"
+   },
+   "repetirFoto": {
+      "message": "Repetir foto"
+   },
+   "resizeToAutoHelp": {
+      "message": "Para volver a poner la altura automática por defecto haz doble click en la zona de cambio de tamaño de la nota."
+   },
+   "rotateTool": {
+      "message": "Arrastra para girar la nota"
+   },
+   "salSiPapelera": {
+      "message": "Está acción no tiene sentido mientras estás viendo el contenido de la Papelera.\u003Cbr>\u003Cbr>Elige otro tablón con notas activas."
+   },
+   "salirWebApp": {
+      "message": "Salir"
+   },
+   "searchBot": {
+      "message": "Buscar Nota"
+   },
+   "searchLabel": {
+      "message": "Buscar"
+   },
+   "selecPin": {
+      "message": "Selecciona chincheta"
+   },
+   "shareLabel": {
+      "message": "Compartir"
+   },
+   "sharedBoard": {
+      "message": "Invitación aceptada, en el tablón \u003Cb>$nombreTablon$\u003C/b> podrás ver las notas compartidas con \u003Cb>$user$\u003C/b>",
+      "placeholders": {
+         "nombreTablon": {
+            "content": "$1"
+         },
+         "user": {
+            "content": "$2"
+         }
+      }
+   },
+   "sinMarco": {
+      "message": "Sin Marco"
+   },
+   "sincroMens": {
+      "message": "Sincroniza Marcadores"
+   },
+   "sincronizando": {
+      "message": "Sincronización activada"
+   },
+   "sincronizingMens": {
+      "message": "Sinc."
+   },
+   "sincronizingMensMarc": {
+      "message": "\u003Cbr>Sincroniza Marcadoresz\u003Cbr>"
+   },
+   "slidesBot": {
+      "message": "Modo presentación (ESC para salir)"
+   },
+   "stickersBot": {
+      "message": "Stickers"
+   },
+   "tablon": {
+      "message": "Tablón "
+   },
+   "tablonActual": {
+      "message": "tablón actual"
+   },
+   "tablonWeb": {
+      "message": "Notas Web"
+   },
+   "tablonesPremium": {
+      "message": "No puede crear más tablones, sólo los usuarios premium pueden tener más de siete. Más información \u003Ca href='https://www.noteboardapp.com/subscribe' target='_blank'>aquí\u003C/a>"
+   },
+   "textoNoEncontrado": {
+      "message": "Texto no encontrado en ninguna nota"
+   },
+   "tiraPapelera": {
+      "message": "Las notas borradas ahora van a la papelera. Después de 30 dias se borran automáticamente, puedes recuperarlas antes moviéndolas a otro tablón.\u003Cbr>También puedes arrastrar las notas hasta la papelera para borrarlas."
+   },
+   "titu": {
+      "message": "Tamano"
+   },
+   "ultimoTablonActual": {
+      "message": "Último abierto"
+   },
+   "uploadLabel": {
+      "message": "Subir Img"
+   },
+   "urlIncorrecta": {
+      "message": "Url incorrecta"
+   },
+   "user": {
+      "message": "Usuario"
+   },
+   "usuario": {
+      "message": "Usuario"
+   },
+   "vacio": {
+      "message": "Nota vacia"
+   },
+   "videoCap_anyadirNota": {
+      "message": "O añade el video a la nota número:"
+   },
+   "videoCap_anyadirVideoNota": {
+      "message": "Añadir video a la nota "
+   },
+   "videoCap_creaNota": {
+      "message": "Crear nota con el video capturado en el tablón."
+   },
+   "videoCap_instructions": {
+      "message": "Crea una nota con el video capturado. Opcionalmente puedes escribir una descripción del video que se añadirá a la nota, posteriormente podrás editar la nota para cambiar este texto o crear otro nuevo."
+   },
+   "videoCap_title": {
+      "message": "Video capturado"
+   },
+   "videoCap_videoCapturado": {
+      "message": "Video capturado"
+   },
+   "volverNoteBoard": {
+      "message": "Ir a esta nota en Note Board"
+   },
+   "votar": {
+      "message": "Votar"
+   },
+   "webNotesPublish": {
+      "message": "El tablón de notas web no se puede publicar, puedes mover las notas que quieras a otro tablón y publicarlo"
+   },
+   "welcomeAdvice": {
+      "message": "\u003Cdiv class='welcome-advice'>Recuerda que para abrir la extensión tienes que usar el icono \u003Cimg id='welcomeIco' src='NoteBoard.png'> de la barra de extensiones de la parte superior derecha. Si no ves el icono fíjalo en la barra haciendo click en el icono de administración de extensiones \u003Cimg id='welcome-pin' src='appimg/pinExtensionEsp.png' >\u003C/div>"
+   },
+   "zoomMini": {
+      "message": "Minimizar la nota"
+   },
+   "zoomTool": {
+      "message": "Ver la nota a pantalla completa"
+   }
+}

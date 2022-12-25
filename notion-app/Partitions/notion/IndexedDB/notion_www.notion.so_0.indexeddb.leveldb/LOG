@@ -1,0 +1,6 @@
+2022/12/25-16:23:42.663 461 Reusing MANIFEST /home/atri/.config/notion-app/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/25-16:23:42.663 461 Recovering log #27
+2022/12/25-16:23:42.673 461 Reusing old log /home/atri/.config/notion-app/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000027.log 
+2022/12/25-16:24:59.751 461 Level-0 table #32: started
+2022/12/25-16:24:59.813 461 Level-0 table #32: 1300778 bytes OK
+2022/12/25-16:24:59.814 461 Delete type=0 #27

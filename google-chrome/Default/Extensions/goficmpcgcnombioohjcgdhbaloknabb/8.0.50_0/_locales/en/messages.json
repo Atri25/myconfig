@@ -1,0 +1,827 @@
+{
+   "R": {
+      "message": "R"
+   },
+   "RW": {
+      "message": "R/W"
+   },
+   "aceptar": {
+      "message": "Accept"
+   },
+   "addKanbanNote": {
+      "message": "Add note in this column"
+   },
+   "anexaFichero": {
+      "message": "Attach file"
+   },
+   "anular": {
+      "message": "Cancel Invitation"
+   },
+   "anularBot": {
+      "message": "Cancel"
+   },
+   "anyadirNotas": {
+      "message": "Add notes"
+   },
+   "asignarUrl": {
+      "message": "Assign to "
+   },
+   "automatico": {
+      "message": "Auto Arrange"
+   },
+   "aviso": {
+      "message": "Reminder on "
+   },
+   "avisoBackup": {
+      "message": "You are using the application without being registered and without using the synchronization with the server, in this way the notes are saved locally. Although it is not usual, the data saved in the browser can be lost in browser updates or when cleaning the system. \u003Cbr> \u003Cbr> To avoid problems, if you don't want to register and keep working in local \u003Cb> make backups periodically to a file \u003C/ b> with the option to backup and restore from the menu bar \u003Cspan class='hacer-backup-aviso'>\u003Cimg src='appimg/floppy.png'>\u003C/span>"
+   },
+   "avisoMarcadores": {
+      "message": "Using markers to synchronize will stop having support in the new versions will not exist this option. Users can now use it to keep doing it, but if you install the extension on another computer you will not have that option. If this causes a problem write to \u003Ca href='mailto:admin@noteboardapp.com?Subject=Bookmarks'>admin@noteboardapp.com\u003C/a>"
+   },
+   "ayudaBusqueda": {
+      "message": "Text or >number o \u003Cnumber"
+   },
+   "ayudaEditarNota": {
+      "message": "You can also edit notes by double clicking on the contents of the note to edit."
+   },
+   "ayudaMovil": {
+      "message": "On touch screen to move a note, first touch the note to show the icons and drag from the top"
+   },
+   "ayudaNuevaNota": {
+      "message": "You can also create notes by double clicking on the place where you want."
+   },
+   "ayudaOrdenacion": {
+      "message": "You have activated automatic sorting, use the same button again to deactivate it. If you put a \"pushpin\" to a note it will not affect the arrangement and will remain fixed where you put it"
+   },
+   "ayudaPresentacion": {
+      "message": "With the presentation mode you can see the notes as if it were a slide show.\u003Cbr>\u003Cb> Press ESC to exit \u003C/b>. Notes change every 5 seconds but you can move with the right and left cursors.\u003Cbr>\u003Cbr>If you publish the board you can choose the option to do it in presentation mode and even embed it in a web in this mode. \u003Cbr>Click \u003Ca href='https://www.noteboardapp.com/newversionslides' target='_blank'>HERE\u003C/a> to read more details.\u003Cbr>\u003Cbr>This functionality is in the test phase, according to which notes can be cut."
+   },
+   "ayudaZoom": {
+      "message": "To remove the zoom, click on the icon again or press ESC. You can also double-click on the top of the note to maximize and minimize it."
+   },
+   "backupBot": {
+      "message": "Backup / Restore"
+   },
+   "backupError": {
+      "message": "Import error"
+   },
+   "backupNow": {
+      "message": "Mabe Backup now"
+   },
+   "backupSuccess": {
+      "message": "Successful import"
+   },
+   "boardRename": {
+      "message": "Rename board "
+   },
+   "borraCompartir": {
+      "message": "Stop sharing this user"
+   },
+   "borraTablon": {
+      "message": "Remove Board"
+   },
+   "borrar": {
+      "message": "Delete"
+   },
+   "borrarNotasConectar": {
+      "message": "Delete notes and connect"
+   },
+   "botonAnexa": {
+      "message": "Add file to a note"
+   },
+   "botonBorrar": {
+      "message": "Delete Note"
+   },
+   "botonBorrarTodo": {
+      "message": "Delete Notes"
+   },
+   "botonEdit": {
+      "message": "Edit Note"
+   },
+   "botonFoto": {
+      "message": "Upload Picture"
+   },
+   "botonPaint": {
+      "message": "Draw Note"
+   },
+   "botonVaciarPapelera": {
+      "message": "Empty the Recycle Bin"
+   },
+   "buttonDemo": {
+      "message": "Button only for help, use the real one on top"
+   },
+   "cambF": {
+      "message": "Font"
+   },
+   "cambFondo": {
+      "message": "Change Background"
+   },
+   "cambZoom": {
+      "message": "Increase/decrease default size font"
+   },
+   "cameraBot": {
+      "message": "Create Note with a photo from the camera"
+   },
+   "cancelar": {
+      "message": "Cancel"
+   },
+   "capturaAreaPantalla": {
+      "message": "Select active tab area (CTRL + SHIFT + 2)"
+   },
+   "capturaAreaPantallaEntera": {
+      "message": "Select desktop area (CTRL + SHIFT + 3)"
+   },
+   "capturaPantalla": {
+      "message": "Capture screen"
+   },
+   "colorCustom": {
+      "message": "Custom color"
+   },
+   "colorNotepad": {
+      "message": "Notepad style"
+   },
+   "colorTransparente": {
+      "message": "Transparent"
+   },
+   "compartidoCon": {
+      "message": "Sharing board with:"
+   },
+   "compartir": {
+      "message": "Share Board"
+   },
+   "compartirNota": {
+      "message": "Share note"
+   },
+   "conectar": {
+      "message": "Connect"
+   },
+   "confSincro": {
+      "message": "If you register for FREE at \u003Ca href='https://www.noteboardapp.com' target='_blank'>www.noteboardapp.com\u003C/a> synchronization will use the web server to have the notes in the cloud. You will be able to access to your notes from the website with any browser including phones and the \u003Ca href='https://play.google.com/store/apps/details?id=com.oscardr.tablonnotas' target='_blank'>Android app \u003C/a> or the \u003Ca href='https://apps.apple.com/us/app/note-board-app/id899770084' target='_blank'>iOs app\u003C/a>\u003Cbr>\u003Cbr>"
+   },
+   "confirmaPassword": {
+      "message": "Confirm Password"
+   },
+   "confirmacionMover": {
+      "message": "Are you sure you want to move the note to board?"
+   },
+   "confirmacionMoverPapelera": {
+      "message": "Are you sure you want to move the note to the recycle bin?"
+   },
+   "confirmacionMoverVarias": {
+      "message": "Are you sure you want to move the selected notes to board?"
+   },
+   "confirmacionMoverVariasPapelera": {
+      "message": "Are you sure you want to move the selected notes to the recycle bin?"
+   },
+   "confirmar": {
+      "message": "Are you sure you want to delete the note?"
+   },
+   "confirmarBorrado": {
+      "message": "\u003Cbr>Are you sure you want to \u003Cb>DELETE ALL YOUR NOTES\u003C/b>?\u003Cbr>\u003Cbr>\u003Cbr>If the data is not synchronized with the server you will \u003Cb>LOSE ALL YOUR NOTES\u003C/b>.\u003Cbr>\u003Cbr>This option is to initialize the extension if you want to start again or connect to another user."
+   },
+   "confirmarBorradoTodoFicheros": {
+      "message": "\u003Cbr>Are you sure you want to \u003Cb>DELETE ALL YOUR NOTES AND ALL YOUR FILES UPLOADED TO THE SERVER\u003C/b>?\u003Cbr>\u003Cbr>\u003Cbr>You will \u003Cb>LOSE ALL YOUR NOTES AND UPLOADED FILES\u003C/b>.\u003Cbr>\u003Cbr>This option is to initialize the extension and remove all your data."
+   },
+   "confirmarCompartirTab": {
+      "message": "Sure you want to stop sharing the board with this user?"
+   },
+   "confirmarLogout": {
+      "message": "Are you sure you want to \u003Cb>delete the local content?\u003C/b>\u003Cbr>\u003Csmall>(In the server the notes won't be deleted).\u003C/small>\u003Cbr>\u003Cbr>This option also disconnecting the synchronization with the server deletes the notes of the hard drive. To recover your notes you need to login again."
+   },
+   "confirmarOrdenacion": {
+      "message": "Are you sure you want to activate automatic arranging? \u003Cbr> \u003Csmall>Click again on the button to disable. \u003C/ Small>"
+   },
+   "confirmarPapelera": {
+      "message": "Are you sure you want to delete all notes in the Recycle bin permanently?"
+   },
+   "confirmarTab": {
+      "message": "Are you sure you want to delete this Board? If there are notes they will be deleted"
+   },
+   "connectTool": {
+      "message": "Create connections between notes"
+   },
+   "connectionSoloUna": {
+      "message": "You only have one note on this board, you can not connect it to any other."
+   },
+   "copiaPortapapeles": {
+      "message": "Copy note to clipboard"
+   },
+   "copiadoPortapapeles": {
+      "message": "Note content copied to clipboard"
+   },
+   "creaPop": {
+      "message": "Create a popup with this note"
+   },
+   "crop_clickAndDrag": {
+      "message": "Drag and select"
+   },
+   "datosPerfilBot": {
+      "message": "User data"
+   },
+   "decrease": {
+      "message": "Decrease default size font"
+   },
+   "defaultFont": {
+      "message": "Default Font"
+   },
+   "demoUser": {
+      "message": "You are using the demo version, the changes you make will not be saved"
+   },
+   "demoUserKanban": {
+      "message": "In this public Kanban board you can see what bugs or new ideas are being worked on and also experimentally allows anyone to create notes in the first or second column to report bugs or give new ideas to improve the Note Board. If the idea is not accepted or the error will go to the column 'Rejected' together with an explanation. \u003Cb> You can only edit or create in the first or second column \u003C/b>"
+   },
+   "demoUserUpload": {
+      "message": "You are using the demo version, you cannot upload files to the server"
+   },
+   "descErrorConex": {
+      "message": "Connection error, data stored locally, trying again in a few seconds..."
+   },
+   "desconectar": {
+      "message": "Disconnect"
+   },
+   "desconectarBorrar": {
+      "message": "Disconnect and delete"
+   },
+   "dias": {
+      "message": "days"
+   },
+   "dobleClickGuardar": {
+      "message": "You can also save the note by double clicking on the board or pressing CTRL + S"
+   },
+   "drawLabel": {
+      "message": "Draw"
+   },
+   "duplica": {
+      "message": "Clone note"
+   },
+   "editandoYa": {
+      "message": "You can't edit two notes at once"
+   },
+   "eligeTablonDestino": {
+      "message": "Choose the board where to show the guest's notes if there are notes you will share them with your friend. You can choose add a new board to share."
+   },
+   "elijeDestino": {
+      "message": "Choose target board to share: "
+   },
+   "errorConex": {
+      "message": "Connection error"
+   },
+   "errorCopiaPortapapeles": {
+      "message": "Error copying to clipboard"
+   },
+   "errorShareUrl": {
+      "message": "Failed to get the URL to share"
+   },
+   "escLec": {
+      "message": "Read and Write"
+   },
+   "escribeEtiqueta": {
+      "message": "Tag (optional)"
+   },
+   "escribeReview": {
+      "message": "\u003Cbr>If you like this extension \u003Ca href='https://chrome.google.com/webstore/detail/note-board/goficmpcgcnombioohjcgdhbaloknabb/reviews' target='_blank'>please rate with 5 stars in the Chrome Store\u003C/a>.\u003Cbr>\u003Cbr>\u003Csmall>(If you do not want to write a review you can leave it empty and put only the number of stars you want)\u003C/small>\u003Cbr>\u003Cbr>Thank you! 😃"
+   },
+   "escribeReviewEdge": {
+      "message": "\u003Cbr>If you like this extension \u003Ca href='https://microsoftedge.microsoft.com/addons/detail/note-board-sticky-notes/ehnmbncdeiinoaojbfjldmghkhjhlkli' target='_blank'>please rate with 5 stars in the Chrome Store\u003C/a>.\u003Cbr>\u003Cbr>\u003Csmall>(If you do not want to write a review you can leave it empty and put only the number of stars you want)\u003C/small>\u003Cbr>\u003Cbr>Thank you! 😃"
+   },
+   "escribeReviewFirefox": {
+      "message": "\u003Cbr>If you like this extension \u003Ca href='https://addons.mozilla.org/es/firefox/addon/board-notes/' target='_blank'>please rate with 5 stars in the Chrome Store\u003C/a>.\u003Cbr>\u003Cbr>\u003Csmall>(If you do not want to write a review you can leave it empty and put only the number of stars you want)\u003C/small>\u003Cbr>\u003Cbr>Thank you! 😃"
+   },
+   "existenNotas": {
+      "message": "\u003Ch3> The boards are not empty \u003C/h3>By connecting or registering with another user you can choose between deleting those notes or adding them to the new user"
+   },
+   "extName": {
+      "message": "Note Board - Sticky Notes App"
+   },
+   "facebookLoginAviso": {
+      "message": "To log in to facebook you will have to accept history navigation access permissions to detect the facebook access token that arrives in a URL"
+   },
+   "flechaMuestra": {
+      "message": "Show boards"
+   },
+   "flechaOculta": {
+      "message": "Hide boards"
+   },
+   "fondo99": {
+      "message": "Custom Background"
+   },
+   "fondo99Ayuda": {
+      "message": "Click here to put the image you want in the background"
+   },
+   "friendsBot": {
+      "message": "Users who share this board"
+   },
+   "full": {
+      "message": "If you want to open the extension to full screen by default click again on the maximize button. To return to normal click again the same button"
+   },
+   "goPremium": {
+      "message": "Become Premium"
+   },
+   "grabaVideoPantalla": {
+      "message": "Record screen video (CTRL + SHIFT + 4)"
+   },
+   "guardaImagen": {
+      "message": "Save image directly in board:"
+   },
+   "guardaImagen2": {
+      "message": "Save image in "
+   },
+   "guardaImagenPantalla": {
+      "message": "Save image"
+   },
+   "guardaLimpio": {
+      "message": "Save clean content in Note Board"
+   },
+   "guardaLimpio2": {
+      "message": "Save clean content in "
+   },
+   "guardaLink": {
+      "message": "Save link in Note Board"
+   },
+   "guardaLink2": {
+      "message": "Save link in "
+   },
+   "guardaPage": {
+      "message": "Save page url in Note Board"
+   },
+   "guardaPage2": {
+      "message": "Save page url in "
+   },
+   "guardaPageS": {
+      "message": "Save page with thumbnail in Note Board"
+   },
+   "guardaPageS2": {
+      "message": "Save page with thumbnail in "
+   },
+   "guardaSeleccion": {
+      "message": "Save selection in Note Board"
+   },
+   "guardaSeleccion2": {
+      "message": "Save selection in "
+   },
+   "hayQueLoguearse": {
+      "message": "To share a board you must be using synchronized notes.\u003Cbr>Please, login or register."
+   },
+   "haztePremium": {
+      "message": "Click here for premium information"
+   },
+   "helpKanbanResize": {
+      "message": "To reset the default automatic width, double-click on the resize area of any column."
+   },
+   "helpLinksMovil": {
+      "message": "Touch on the icon -> to confirm link navigation"
+   },
+   "helpTablones": {
+      "message": "Double click to change the name of the board. Drag to change the order of the boards. To delete a board use the trash icon button of the preview"
+   },
+   "helpZoomDblClick": {
+      "message": "Double click on the zoom selector to return to the default value"
+   },
+   "imageSave_abrir": {
+      "message": "Open"
+   },
+   "imageSave_addLink": {
+      "message": "Do you want to add the link "
+   },
+   "imageSave_anyadirEdicion": {
+      "message": "Add in note in edition"
+   },
+   "imageSave_anyadirImagenNota": {
+      "message": "Add image to a note "
+   },
+   "imageSave_anyadirImagenNotaError": {
+      "message": "That note does not exist, you have $numNotas$ notes",
+      "placeholders": {
+         "numNotas": {
+            "content": "$1"
+         }
+      }
+   },
+   "imageSave_anyadirNota": {
+      "message": "Or add the image to the note number:"
+   },
+   "imageSave_ayudaaAnyadir": {
+      "message": "You can know the number of the note by hovering the mouse over the top of a note."
+   },
+   "imageSave_conLink": {
+      "message": "Image with link"
+   },
+   "imageSave_conLinkTexto": {
+      "message": "Add text with link"
+   },
+   "imageSave_creaNota": {
+      "message": "Create note with the selected image on the board:"
+   },
+   "imageSave_crear": {
+      "message": "Create Note"
+   },
+   "imageSave_imagenCapturada": {
+      "message": "Captured image"
+   },
+   "imageSave_instructions": {
+      "message": "You can create the note with the image as a link to the url where it was captured or add the link in text mode to the note. If you are editing a note, the option to add the image to that note will be displayed."
+   },
+   "imageSave_noAbrir": {
+      "message": "Do not open Note Board when creating the note"
+   },
+   "imageSave_numNota": {
+      "message": "Note number"
+   },
+   "imageSave_placeHolderTexto": {
+      "message": "You can optionally add text to the note"
+   },
+   "imageSave_tablon": {
+      "message": "Board"
+   },
+   "imageSave_title": {
+      "message": "Create note with selected area"
+   },
+   "imageSave_volver": {
+      "message": "Select again"
+   },
+   "increase": {
+      "message": "Increase default size font"
+   },
+   "inicializarTablon": {
+      "message": "Initialize Note Board?"
+   },
+   "invitaAmigoFb": {
+      "message": " invites you to share a note board with you."
+   },
+   "invitaciones": {
+      "message": "Invitations"
+   },
+   "invitacionesBot": {
+      "message": "Invitations received"
+   },
+   "invitacionesPend": {
+      "message": "Pending invitations"
+   },
+   "invitationLabel": {
+      "message": "Invitation"
+   },
+   "irLogin": {
+      "message": "Go to Login"
+   },
+   "irRegistro": {
+      "message": "Go to Sign Up"
+   },
+   "kanbanBot": {
+      "message": "Create Kanban Board"
+   },
+   "labelAdd": {
+      "message": "Add Board "
+   },
+   "lec": {
+      "message": "Read"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "loginBot": {
+      "message": "Login / Sign up"
+   },
+   "loginSinPermisos": {
+      "message": "Cannot access server without permission"
+   },
+   "loguearseParaPublicar": {
+      "message": "With this option, you can publish the boards of your choice in a unique URL for your user.\u003Cbr>When a board visibility is set to public it is viewable by anyone but it is also locked so that nobody will be able to change the contents of the board except yourself.\u003Cbr>To do this you must be connected.\u003Cbr>Please login or signup.\u003Cbr>\u003Cbr>Visit the \u003Ca href=\"https://www.noteboardapp.com/galleryPage\" target=\"_blank\">gallery\u003C/a> in the web to see examples of public boards."
+   },
+   "manutsiLink": {
+      "message": "Background designed by Manutsi, click here to see its website"
+   },
+   "masInfo": {
+      "message": "Show me more"
+   },
+   "maxBot": {
+      "message": "Maximizing in a new tab"
+   },
+   "mensEdit": {
+      "message": "Double click to edit"
+   },
+   "mensErrorConexion": {
+      "message": "There has been an error connecting to the server, the note is saved locally and has been marked as not synchronized. It will retry the sync periodically.\u003Cbr>\u003Cbr>If the error occurred in an update is possible to double the note to avoid loss of information in synchronization with other instalations."
+   },
+   "mensaje": {
+      "message": "Message"
+   },
+   "minBot": {
+      "message": "Run as a popup in next execution"
+   },
+   "modoLectura": {
+      "message": "You can not edit, shared note in read mode."
+   },
+   "moverNota": {
+      "message": "Move note to board"
+   },
+   "muestraBotones": {
+      "message": "Show buttons"
+   },
+   "newSharedBoard": {
+      "message": "Created new board \u003Cb>$nombreTablon$\u003C/b>. \u003Cbr>On this board you will see the notes shared with \u003Cb>$user$\u003C/b>",
+      "placeholders": {
+         "nombreTablon": {
+            "content": "$1"
+         },
+         "user": {
+            "content": "$2"
+         }
+      }
+   },
+   "newTabFeature": {
+      "message": "New feature to open Note Board as a new tab"
+   },
+   "newversion": {
+      "message": "New version, click on \"Show me more\" to see what's new"
+   },
+   "noEncontrado": {
+      "message": "There isn't any note with that text"
+   },
+   "noMasEspacio": {
+      "message": "There is no more space to store data locally, try to empty the trash, delete a note with some image capture or better yet register for free to save the notes at www.noteboardapp.com"
+   },
+   "noMoreSpace": {
+      "message": "You have no more space on the server, subscribe to Premium user to have more space. More information \u003Ca href='https://www.noteboardapp.com/subscribe' target='_blank'>here\u003C/a>"
+   },
+   "noMostrarMas": {
+      "message": "don't show again"
+   },
+   "noVolverMostrar": {
+      "message": "Don't show me again"
+   },
+   "nopublico": {
+      "message": "This user has no public boards"
+   },
+   "nopublico2": {
+      "message": "You don't have public boards"
+   },
+   "notasWebPermisos": {
+      "message": "You have notes in web created, to be able to insert them in their corresponding webs you will have to accept the necessary permissions of access."
+   },
+   "noteboardmobile": {
+      "message": "Access your notes from your mobile"
+   },
+   "nuevaNotaImagenWeb": {
+      "message": "New Note with this image on this website"
+   },
+   "nuevaNotaSelecWeb": {
+      "message": "Note with selected text on this website (beta)"
+   },
+   "nuevaNotaWeb": {
+      "message": "New Note on this Website (CTRL+SHIFT+1)"
+   },
+   "nuevaNotaWeb2": {
+      "message": "New Web Note"
+   },
+   "nuevaNotaWeb3": {
+      "message": "New Web Note in "
+   },
+   "nuevoPost": {
+      "message": "New Note"
+   },
+   "ocultaBotones": {
+      "message": "Hide buttons"
+   },
+   "opcionPremium": {
+      "message": "This option is for premium users. More information \u003Ca href='https://www.noteboardapp.com/subscribe' target='_blank'>here\u003C/a>."
+   },
+   "opcionesSinc": {
+      "message": "Synchronization Options"
+   },
+   "optionsBot": {
+      "message": "Options"
+   },
+   "ordena": {
+      "message": "Arrange"
+   },
+   "ordenaAutomatico": {
+      "message": "Auto Arrange"
+   },
+   "ordenaBot": {
+      "message": "Automatic Sorting"
+   },
+   "ordenaKanban": {
+      "message": "Automatic sorting does not make sense on a kanban board"
+   },
+   "origenExtension": {
+      "message": "You are looking at your notes from the \u003Cb>Desktop Version\u003C/b> possibly by mistake because you have come here from the Chrome extension. If you really want to access to the extension click on the icon in the bar extensions."
+   },
+   "originalNewTab": {
+      "message": "Open original new Tab"
+   },
+   "panelBotDiv": {
+      "message": "Select and edit boards"
+   },
+   "papelera": {
+      "message": "Recycle bin"
+   },
+   "password": {
+      "message": "Password"
+   },
+   "permisoAnexarFicheros": {
+      "message": "To upload files to the server you must activate access permissions to www.noteboardapp.com "
+   },
+   "permisoEditarImagenes": {
+      "message": "To edit images it is necessary to give permission to the extension to access the server www.noteboardapp.com to save the edited image."
+   },
+   "permisoImagenes": {
+      "message": "To display an image in a notification must enable access permissions. If you deny it will only show the text."
+   },
+   "permisoImagenesFondo": {
+      "message": "To use external images in notes or as background must enable access permissions external hosts."
+   },
+   "permisoModificarImagenes": {
+      "message": "To edit external images in notes must enable access permissions external hosts."
+   },
+   "permisos": {
+      "message": "Permission"
+   },
+   "permisosVideo": {
+      "message": "\u003Cb> When saving the note you will have to accept access permissions to the server since the videos cannot be saved locally. \u003C/b> Note that the videos take up a lot of space."
+   },
+   "pipVideo": {
+      "message": "Watch video in picture in picture mode"
+   },
+   "pluginBot": {
+      "message": "Plugins"
+   },
+   "politicaLabel": {
+      "message": "I have read the \u003Ca href='https://www.noteboardapp.com/chromeExtensionPrivacy' target='_blank' >privacy policy\u003C/a>"
+   },
+   "presentacionSinNotas": {
+      "message": "The board is empty, there are no notes for the presentation"
+   },
+   "primeraOrdenacion": {
+      "message": "You have activated the automatic arranging, click again on the button to disable."
+   },
+   "programaAgenda": {
+      "message": "Choose a day / time to open a popup with this note. You can also schedule sending an email or a notification to the mobile with Pushbullet."
+   },
+   "programaAviso": {
+      "message": "Schedule reminder"
+   },
+   "publicBot": {
+      "message": "Publish Board"
+   },
+   "publishLabel": {
+      "message": "Publish"
+   },
+   "quitaAnuncios": {
+      "message": "Remove ads"
+   },
+   "quitaPin": {
+      "message": "Remove pushpin"
+   },
+   "rechazar": {
+      "message": "Refuse"
+   },
+   "recicla": {
+      "message": "Restore"
+   },
+   "recordarAgenda": {
+      "message": "Remember tomorrow"
+   },
+   "refreshBot": {
+      "message": "Synchronize the notes with other installations"
+   },
+   "registrateParaSincro": {
+      "message": "Sign up for free to synchronize notes on other computers"
+   },
+   "registro": {
+      "message": "Sign up"
+   },
+   "repetirFoto": {
+      "message": "Repeat photo"
+   },
+   "resizeToAutoHelp": {
+      "message": "To return to the automatic height by default, double click the note resize zone."
+   },
+   "rotateTool": {
+      "message": "Drag to rotate the note"
+   },
+   "salSiPapelera": {
+      "message": "This action has no sense while you are viewing the contents of the Recycle bin. \u003Cbr>Choose another board with active notes."
+   },
+   "salirWebApp": {
+      "message": "Go Home"
+   },
+   "searchBot": {
+      "message": "Search Note"
+   },
+   "searchLabel": {
+      "message": "Search"
+   },
+   "selecPin": {
+      "message": "Select pushpin"
+   },
+   "shareLabel": {
+      "message": "Share"
+   },
+   "sharedBoard": {
+      "message": "Invitation accepted, on the board \u003Cb>$nombreTablon$\u003C/b> you will see the notes shared with \u003Cb>$user$\u003C/b>",
+      "placeholders": {
+         "nombreTablon": {
+            "content": "$1"
+         },
+         "user": {
+            "content": "$2"
+         }
+      }
+   },
+   "sinMarco": {
+      "message": "Borderless"
+   },
+   "sincroMens": {
+      "message": "Syncronize Bookmarks"
+   },
+   "sincronizando": {
+      "message": "Synchronization enabled"
+   },
+   "sincronizingMens": {
+      "message": "Sync."
+   },
+   "sincronizingMensMarc": {
+      "message": "Sinc. Bookmarks"
+   },
+   "slidesBot": {
+      "message": "Presentation mode (ESC to exit)"
+   },
+   "stickersBot": {
+      "message": "Stickers"
+   },
+   "tablon": {
+      "message": "Board "
+   },
+   "tablonActual": {
+      "message": "tablón actual"
+   },
+   "tablonWeb": {
+      "message": "Web Notes"
+   },
+   "tablonesPremium": {
+      "message": "No more boards can be created, only premium users can have more than seven. More information \u003Ca href='https://www.noteboardapp.com/subscribe' target='_blank'>here\u003C/a>"
+   },
+   "textoNoEncontrado": {
+      "message": "Text not found in any note"
+   },
+   "tiraPapelera": {
+      "message": "Deleted notes now go to the Recycle bin. After 30 days they are automatically deleted, but you can recover them before they are deleted by, moving them to another board from the Trash bin.\u003Cbr>You can also drag the notes from a board, to the bin for deletion."
+   },
+   "titu": {
+      "message": "Size"
+   },
+   "ultimoTablonActual": {
+      "message": "Last open"
+   },
+   "uploadLabel": {
+      "message": "Upload"
+   },
+   "urlIncorrecta": {
+      "message": "Url not correct"
+   },
+   "user": {
+      "message": "User"
+   },
+   "usuario": {
+      "message": "User"
+   },
+   "vacio": {
+      "message": "Empty Note"
+   },
+   "videoCap_anyadirNota": {
+      "message": "Or add the video to the note number:"
+   },
+   "videoCap_anyadirVideoNota": {
+      "message": "Add video to the note "
+   },
+   "videoCap_creaNota": {
+      "message": "Create note with the video captured on the board:"
+   },
+   "videoCap_instructions": {
+      "message": "Create a note with the captured video. Optionally you can write a description of the video that will be added to the note, then you can edit the note to change this text or create a new one."
+   },
+   "videoCap_title": {
+      "message": "Captured video"
+   },
+   "videoCap_videoCapturado": {
+      "message": "Captured video"
+   },
+   "volverNoteBoard": {
+      "message": "Go to this note in Note Board"
+   },
+   "votar": {
+      "message": "Vote"
+   },
+   "webNotesPublish": {
+      "message": "The web notes board cannot be published, you can move the notes you want to another board and publish it"
+   },
+   "welcomeAdvice": {
+      "message": "\u003Cdiv class = 'welcome-advice'> Remember that to open the extension you have to use the \u003Cimg id = 'welcomeIco' src = 'NoteBoard.png'> icon from the extensions bar at the top right. If you don't see the icon, fix it on the bar by clicking on the extensions management icon \u003Cimg id = 'welcome-pin' src = 'appimg/pinExtensionEng.png'> \u003C/div>"
+   },
+   "zoomMini": {
+      "message": "Minimize note"
+   },
+   "zoomTool": {
+      "message": "Full screen note"
+   }
+}

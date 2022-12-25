@@ -13,9 +13,20 @@ from typing import List  # noqa: F401
 
 from qtile_extras import widget
 from qtile_extras.widget.decorations import BorderDecoration
+import os
+import subprocess
+from libqtile import layout, bar, widget, hook 
+from libqtile.config import Drag, Group, Key, Match, Screen
+from libqtile.command import lazy
+from qtile_extras import widget
+from qtile_extras.widget.decorations import PowerLineDecoration
 
-mod = "mod4"              # Sets mod key to SUPER/WINDOWS
-myTerm = "alacritty"      # My terminal of choice
+home=os.path.expanduser('~')
+mod="mod4" # super key
+alt="mod1"
+myTerm="alacritty"
+# myBrowser="brave"
+myIDE="code"
 myBrowser = "firefox" # My browser of choice
 
 keys = [
@@ -25,13 +36,17 @@ keys = [
              desc='Launches My Terminal'
              ),
          Key([mod, "shift"], "Return",
-             lazy.spawn("dmenu_run"),
+             lazy.spawn("rofi -show drun"),
              desc='Run Launcher'
              ),
          Key([mod], "b",
              lazy.spawn(myBrowser),
              desc='browser'
              ),
+        # Key([mod], "/",
+        #      lazy.spawn("thunar"),
+        #      desc='file manager'
+        #      ),
          Key([mod], "Tab",
              lazy.next_layout(),
              desc='Toggle through layouts'
@@ -63,10 +78,8 @@ keys = [
              ),
          Key([mod], "r",
              lazy.to_screen(2),
-             desc='Keyboard focus to monitor 3'
+             desc='Keyboard focus to monitor '
              ),
-         Key([],"XF86AudioLowerVolume",lazy.spawm("amixer -c 0 sset Master 1- unmute")),
-         Key([],"XF86AudioRaiseVolume",lazy.spawm("amixer -c 0 sset Master 1+ unmute")),
          ### Switch focus of monitors
          Key([mod], "period",
              lazy.next_screen(),
@@ -248,422 +261,282 @@ keys = [
          ])
 ]
 
-groups = [Group("DEV", layout='monadtall'),
-          Group("WWW", layout='monadtall'),
-          Group("SYS", layout='monadtall'),
-          Group("SYS", layout='monadtall'),
-          Group("DOC", layout='monadtall'),
-          Group("VBOX", layout='monadtall'),
-          Group("CHAT", layout='monadtall'),
-          Group("MUS", layout='monadtall'),
-          Group("VID", layout='monadtall'),
-          Group("PROD", layout='floating')]
+groups = [Group(f"{i+1}", label="") for i in range(5)]
 
-# Allow MODKEY+[0 through 9] to bind to groups, see https://docs.qtile.org/en/stable/manual/config/groups.html
-# MOD4 + index Number : Switch to Group[index]
-# MOD4 + shift + index Number : Send active window to another Group
-from libqtile.dgroups import simple_key_binder
-dgroups_key_binder = simple_key_binder("mod4")
+for i in groups:
+    keys.extend([
+#CHANGE WORKSPACES
+        Key([mod], i.name, lazy.group[i.name].toscreen()),
+# MOVE WINDOW TO SELECTED WORKSPACE 1-10 AND FOLLOW MOVED WINDOW TO WORKSPACE
+        Key([mod, "shift"], i.name, lazy.window.togroup(i.name) , lazy.group[i.name].toscreen()),
+    ])
 
-layout_theme = {"border_width": 2,
-                "margin": 8,
-                "border_focus": "e1acff",
-                "border_normal": "1D2330"
-                }
+# LAYOUTS
+layout_theme={
+    "margin": 15,
+    "border_width":1,
+    "border_focus": "#ff00ff",
+    "border_normal": "#45475A"
+}
 
-layouts = [
-    #layout.MonadWide(**layout_theme),
-    #layout.Bsp(**layout_theme),
-    #layout.Stack(stacks=2, **layout_theme),
-    #layout.Columns(**layout_theme),
-    #layout.RatioTile(**layout_theme),
-    #layout.Tile(shift_windows=True, **layout_theme),
-    #layout.VerticalTile(**layout_theme),
-    #layout.Matrix(**layout_theme),
-    #layout.Zoomy(**layout_theme),
+layouts=[
     layout.MonadTall(**layout_theme),
-    layout.Max(**layout_theme),
-    layout.Stack(num_stacks=2),
-    layout.RatioTile(**layout_theme),
-    layout.TreeTab(
-         font = "Ubuntu",
-         fontsize = 10,
-         sections = ["FIRST", "SECOND", "THIRD", "FOURTH"],
-         section_fontsize = 10,
-         border_width = 2,
-         bg_color = "1c1f24",
-         active_bg = "c678dd",
-         active_fg = "000000",
-         inactive_bg = "a9a1e1",
-         inactive_fg = "1c1f24",
-         padding_left = 0,
-         padding_x = 0,
-         padding_y = 5,
-         section_top = 10,
-         section_bottom = 20,
-         level_shift = 8,
-         vspace = 3,
-         panel_width = 200
-         ),
-    layout.Floating(**layout_theme)
+    layout.MonadWide(**layout_theme),
+    layout.Matrix(**layout_theme),
+    layout.Bsp(**layout_theme),
+    layout.Floating(**layout_theme),
+    layout.Columns(**layout_theme),
 ]
 
-colors = [["#282c34", "#282c34"],
-          ["#1c1f24", "#1c1f24"],
-          ["#dfdfdf", "#dfdfdf"],
-          ["#ff6c6b", "#ff6c6b"],
-          ["#98be65", "#98be65"],
-          ["#da8548", "#da8548"],
-          ["#51afef", "#51afef"],
-          ["#c678dd", "#c678dd"],
-          ["#46d9ff", "#46d9ff"],
-          ["#a9a1e1", "#a9a1e1"]]
+# WIDGETS FOR THE BAR
+def init_widgets_defaults():
+    return dict(
+        font="Satoshi Black",
+        fontsize=14,
+        padding=3,
+    )
 
-prompt = "{0}@{1}: ".format(os.environ["USER"], socket.gethostname())
+widget_defaults=init_widgets_defaults()
+extension_defaults=[ widget_defaults.copy()]
 
-##### DEFAULT WIDGET SETTINGS #####
-widget_defaults = dict(
-    font="Ubuntu Bold",
-    fontsize = 10,
-    padding = 2,
-    background=colors[2]
-)
-extension_defaults = widget_defaults.copy()
+colors={
+    'night': '#181825',
+    'dark': '#322B54',
+    'medium': '#5F5399',
+    'light': '#7E6EC4',
+    'sat': '#CBA6f7',
+    'dim': '#796296'
+}
 
-def init_widgets_list():
-    widgets_list = [
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[2],
-                       background = colors[0]
-                       ),
-              widget.Image(
-                       filename = "~/.config/qtile/icons/python-white.png",
-                       scale = "False",
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm)}
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[2],
-                       background = colors[0]
-                       ),
-              widget.GroupBox(
-                       font = "Ubuntu Bold",
-                       fontsize = 9,
-                       margin_y = 3,
-                       margin_x = 0,
-                       padding_y = 5,
-                       padding_x = 3,
-                       borderwidth = 3,
-                       active = colors[2],
-                       inactive = colors[7],
-                       rounded = False,
-                       highlight_color = colors[1],
-                       highlight_method = "line",
-                       this_current_screen_border = colors[6],
-                       this_screen_border = colors [4],
-                       other_current_screen_border = colors[6],
-                       other_screen_border = colors[4],
-                       foreground = colors[2],
-                       background = colors[0]
-                       ),
-             widget.TextBox(
-                       text = '|',
-                       font = "Ubuntu Mono",
-                       background = colors[0],
-                       foreground = '474747',
-                       padding = 2,
-                       fontsize = 14
-                       ),
-              widget.CurrentLayoutIcon(
-                       custom_icon_paths = [os.path.expanduser("~/.config/qtile/icons")],
-                       foreground = colors[2],
-                       background = colors[0],
-                       padding = 0,
-                       scale = 0.7
-                       ),
-              widget.CurrentLayout(
-                       foreground = colors[2],
-                       background = colors[0],
-                       padding = 5
-                       ),
-             widget.TextBox(
-                       text = '|',
-                       font = "Ubuntu Mono",
-                       background = colors[0],
-                       foreground = '474747',
-                       padding = 2,
-                       fontsize = 14
-                       ),
-              widget.WindowName(
-                       foreground = colors[6],
-                       background = colors[0],
-                       padding = 0
-                       ),
-              widget.Systray(
-                       background = colors[0],
-                       padding = 5
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
-             widget.Net(
-                       interface = "enp6s0",
-                       format = 'Net: {down} ↓↑ {up}',
-                       foreground = colors[3],
-                       background = colors[0],
-                       padding = 5,
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[3],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
-              widget.ThermalSensor(
-                       foreground = colors[4],
-                       background = colors[0],
-                       threshold = 90,
-                       fmt = 'Temp: {}',
-                       padding = 5,
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[4],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
-              widget.CheckUpdates(
-                       update_interval = 1800,
-                       distro = "Arch_checkupdates",
-                       display_format = "Updates: {updates} ",
-                       foreground = colors[5],
-                       colour_have_updates = colors[5],
-                       colour_no_updates = colors[5],
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e sudo pacman -Syu')},
-                       padding = 5,
-                       background = colors[0],
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[5],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
-              widget.Memory(
-                       foreground = colors[9],
-                       background = colors[0],
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' -e htop')},
-                       fmt = 'Mem: {}',
-                       padding = 5,
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[9],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
+roundness=10
 
-              widget.Volume(
-                       foreground = colors[7],
-                       background = colors[0],
-                       fmt = 'Vol: {}',
-                       padding = 5,
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[7],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
+def init_widgets():
+    widgets=[
+        widget.Spacer(
+            length=10,
+            background=colors["night"],
+        ),
+        widget.Image(
+            filename='~/.config/qtile/assets/logo.png',
+            margin=2,
+            background=colors["night"],
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_left',
+                    override_colour=colors["night"], 
+                    size=roundness
+                )
+            ],
+        ),
+        widget.GroupBox(
+            fontsize=16,
+            borderwidth=1,
+            highlight_method='text',
+            background=colors["dark"],
+            active=colors["dim"],
+            inactive=colors["medium"],
+            this_current_screen_border=colors["sat"],
+            disable_drag=True,
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_left',
+                    override_colour=colors["dark"], 
+                    size=roundness
+                )
+            ],
+            ),
+        widget.CurrentLayoutIcon(
+            background=colors["medium"],
+            padding=0,
+            scale=0.5,
+        ),
+        widget.CurrentLayout(
+            background=colors["medium"],
+            font='Satoshi Bold',
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_left',
+                    override_colour=colors["medium"], 
+                    size=roundness
+                )
+            ],
+        ),
+        widget.Spacer(
+            length=3,
+            background=colors["light"],
+        ),
+        widget.WindowName(
+            background=colors["light"],
+            format="{name}",
+            max_chars=77,
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_right',
+                    override_colour=colors["light"], 
+                    size=roundness
+                )
+            ],
+        ),
+        widget.TextBox(
+            text="",
+            font="Font Awesome 6 Free Solid",
+            fontsize=13,
+            background=colors["night"],
+        ),
+        widget.Clock(
+            background=colors["night"],
+            format='%I:%M %p',
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_left',
+                    override_colour=colors["night"], 
+                    size=roundness
+                )
+            ],
+        ),
+        widget.Spacer(
+            background=colors["light"],
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_right',
+                    override_colour=colors["light"], 
+                    size=roundness
+                )
+            ],
+        ),
+        widget.TextBox(
+            text="",
+            font="Font Awesome 6 Free Solid",
+            fontsize=13,
+            background=colors["medium"],
+        ),
+        widget.Memory(
+            measure_mem='G',
+            format='{MemUsed: .1f}{mm}',
+            background=colors["medium"],
+        ),
+        widget.Spacer(
+            length=10,
+            background=colors["medium"],
+        ),
+        widget.TextBox(
+            text="",
+            font="Font Awesome 6 Free Solid",
+            fontsize=13,
+            background=colors["medium"],
+        ),
+        widget.CheckUpdates(
+            background=colors["medium"],
+            display_format='{updates}',
+            distro='Arch_checkupdates'
+        ),
+        widget.Spacer(
+            length=5,
+            background=colors["medium"],
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_right',
+                    override_colour=colors["medium"], 
+                    size=roundness
+                )
+            ],
+        ),
+        widget.Spacer(
+            length=10,
+            background=colors["dark"],
+        ),
+        widget.TextBox(
+            text="",
+            font="Font Awesome 6 Free Solid",
+            background=colors["dark"],
+        ),
+        widget.PulseVolume(
+            background=colors["dark"],
+        ),
+        widget.Spacer(
+            length=5,
+            background=colors["dark"],
+            decorations=[
+                PowerLineDecoration(
+                    path='rounded_right',
+                    override_colour=colors["dark"], 
+                    size=roundness
+                )
+            ],
+        ),
+        widget.TextBox(
+            text="",
+            font="Font Awesome 6 Free Solid",
+            fontsize=13,
+            padding=0,
+            background=colors["night"],
+        ),
+        widget.Clock(
+            padding=10,
+            background=colors["night"],
+            format='%d/%m/%y'
+        )
+    ]
+    return widgets
 
+screen1_widgets=init_widgets()
+screen2_widgets=init_widgets()
 
-              widget.KeyboardLayout(
-                       foreground = colors[8],
-                       background = colors[0],
-                       fmt = 'Keyboard: {}',
-                       padding = 5,
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[8],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
-                       ),
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
-              widget.AnalogueClock(
-                       background = colors[0],
-                       face_shape = "square",
-                       face_background = colors[6],
-                       face_border_colour = colors[6],
-                       face_border_width = 4,
-                       padding = 5
-                       ),
-              widget.Clock(
-                       foreground = colors[6],
-                       background = colors[0],
-                       format = "%A, %B %d - %H:%M ",
-                       decorations=[
-                           BorderDecoration(
-                               colour = colors[6],
-                               border_width = [0, 0, 2, 0],
-                               padding_x = 5,
-                               padding_y = None,
-                           )
-                       ],
+screens=[
+    Screen(top=bar.Bar(widgets=init_widgets(), size=30, opacity=.85, margin=[10, 15, -3, 15])),
+    Screen(top=bar.Bar(widgets=init_widgets(), size=30, opacity=.85, margin=[10, 15, -3, 15])),
+]
 
-                       ),
-
-              widget.Sep(
-                       linewidth = 0,
-                       padding = 6,
-                       foreground = colors[0],
-                       background = colors[0]
-                       ),
-              ]
-    return widgets_list
-
-def init_widgets_screen1():
-    widgets_screen1 = init_widgets_list()
-    del widgets_screen1[9:10]               # Slicing removes unwanted widgets (systray) on Monitors 1,3
-    return widgets_screen1
-
-def init_widgets_screen2():
-    widgets_screen2 = init_widgets_list()
-    return widgets_screen2                 # Monitor 2 will display all widgets in widgets_list
-
-def init_screens():
-    return [Screen(top=bar.Bar(widgets=init_widgets_screen1(), opacity=1.0, size=20)),
-            Screen(top=bar.Bar(widgets=init_widgets_screen2(), opacity=1.0, size=20)),
-            Screen(top=bar.Bar(widgets=init_widgets_screen1(), opacity=1.0, size=20))]
-
-if __name__ in ["config", "__main__"]:
-    screens = init_screens()
-    widgets_list = init_widgets_list()
-    widgets_screen1 = init_widgets_screen1()
-    widgets_screen2 = init_widgets_screen2()
-
-def window_to_prev_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i - 1].name)
-
-def window_to_next_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i + 1].name)
-
-def window_to_previous_screen(qtile):
-    i = qtile.screens.index(qtile.current_screen)
-    if i != 0:
-        group = qtile.screens[i - 1].group.name
-        qtile.current_window.togroup(group)
-
-def window_to_next_screen(qtile):
-    i = qtile.screens.index(qtile.current_screen)
-    if i + 1 != len(qtile.screens):
-        group = qtile.screens[i + 1].group.name
-        qtile.current_window.togroup(group)
-
-def switch_screens(qtile):
-    i = qtile.screens.index(qtile.current_screen)
-    group = qtile.screens[i - 1].group
-    qtile.current_screen.set_group(group)
-
-mouse = [
+# MOUSE CONFIGURATION
+mouse=[
     Drag([mod], "Button1", lazy.window.set_position_floating(),
          start=lazy.window.get_position()),
     Drag([mod], "Button3", lazy.window.set_size_floating(),
-         start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front())
+         start=lazy.window.get_size())
 ]
 
-dgroups_app_rules = []  # type: List
-follow_mouse_focus = True
-bring_front_click = False
-cursor_warp = False
-
-floating_layout = layout.Floating(float_rules=[
-    # Run the utility of `xprop` to see the wm class and name of an X client.
-    # default_float_rules include: utility, notification, toolbar, splash, dialog,
-    # file_progress, confirm, download and error.
-    *layout.Floating.default_float_rules,
-    Match(title='Confirmation'),      # tastyworks exit box
-    Match(title='Qalculate!'),        # qalculate-gtk
-    Match(wm_class='kdenlive'),       # kdenlive
-    Match(wm_class='pinentry-gtk-2'), # GPG key password entry
-])
-auto_fullscreen = True
-focus_on_window_activation = "smart"
-reconfigure_screens = True
-
-# If things like steam games want to auto-minimize themselves when losing
-# focus, should we respect this or not?
-auto_minimize = True
+dgroups_key_binder=None
+dgroups_app_rules=[]
+main = None
 
 @hook.subscribe.startup_once
 def start_once():
-    home = os.path.expanduser('~')
+    home=os.path.expanduser('~')
     subprocess.call([home + '/.config/qtile/autostart.sh'])
 
-# XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
-# string besides java UI toolkits; you can see several discussions on the
-# mailing lists, GitHub issues, and other WM documentation that suggest setting
-# this string if your java app doesn't work correctly. We may as well just lie
-# and say that we're a working one by default.
-#
-# We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
-# java that happens to be on java's whitelist.
+follow_mouse_focus=True
+bring_front_click=False
+cursor_warp=False
+
+floating_layout=layout.Floating(
+    float_rules=[
+        *layout.Floating.default_float_rules,
+        Match(wm_class='confirm'),
+        Match(wm_class='dialog'),
+        Match(wm_class='download'),
+        Match(wm_class='error'),
+        Match(wm_class='file_progress'),
+        Match(wm_class='notification'),
+        Match(wm_class='splash'),
+        Match(wm_class='toolbar'),
+        Match(wm_class='confirmreset'),
+        Match(wm_class='makebranch'),
+        Match(wm_class='maketag'),
+        Match(wm_class='Arandr'),
+        Match(wm_class='feh'),
+        Match(wm_class='Galculator'),
+        Match(title='branchdialog'),
+        Match(title='Open File'),
+        Match(title='pinentry'),
+        Match(wm_class='ssh-askpass'),
+        Match(wm_class='lxpolkit'),
+        Match(wm_class='yad'),
+    ],
+    **layout_theme
+)
+
+auto_fullscreen = True
+auto_minimize = True
+focus_on_window_activation = "smart" 
+
 wmname = "LG3D"

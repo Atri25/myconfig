@@ -1,4 +1,0 @@
-2022-12-17 09:27:06.666 [info] update#ctor - updates are disabled as there is no update URL
-2022-12-17 09:27:07.739 [info] Starting extension host with pid 2764 (fork() took 4 ms).
-2022-12-17 09:33:58.394 [info] Waiting for extension host with pid 2764 to exit.
-2022-12-17 09:33:58.404 [info] Extension host with pid 2764 exited with code: 0, signal: null.

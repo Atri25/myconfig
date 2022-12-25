@@ -1,0 +1,4 @@
+2022-12-18 15:08:33.075 [info] update#ctor - updates are disabled as there is no update URL
+2022-12-18 15:08:34.181 [info] Starting extension host with pid 34882 (fork() took 5 ms).
+2022-12-18 15:08:36.755 [info] Waiting for extension host with pid 34882 to exit.
+2022-12-18 15:08:36.769 [info] Extension host with pid 34882 exited with code: 0, signal: null.

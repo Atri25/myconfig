@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_popup": "index.html",
+      "default_title": "Color by HSI"
+   },
+   "description": "Color Picker gives you the possibility to choose precise colors for your work, and give you the number of the color in HEX and RGB",
+   "icons": {
+      "128": "logos/logo.png",
+      "16": "logos/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyehYxRtuH/IO9Zvr+c2mNDdlHKz/FlI/mUTvQTugfqnkT85ZhJUyGpSnoJoFa2ZugkYp8m2q25RmfWtFkjfk8vur2rwWyTW8Tu8BaELQBYGNX2qO8i1Y+MEEM1ZekpVRO+uoRqUZ8n7ZcnzXeGCJitawyAyTqG7CxaFlKnHZX5j1hlpjbUpz2AgOOIVLdCnhjwCKdu4WrmO/zoy2hcIFtYaarbU8cvbRYg1nyDtyjq78ExFfzyLVRXL5KhGwfk0XV//uwoQN8LXvzuC9TCkzp6geO/R8SPUnEpx4/nKIF4nKHcasocpsUw8NcFeIWzWq07cvM+GbJQ953G6gQibDJwIDAQAB",
+   "manifest_version": 2,
+   "name": "Color picker",
+   "short_name": "Color by HSI",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2"
+}

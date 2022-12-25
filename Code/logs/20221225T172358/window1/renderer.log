@@ -1,0 +1,2 @@
+2022-12-25 17:23:59.176 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/atri/.config/qtile/config.py","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2022-12-25 17:24:02.087 [info] [perf] Render performance baseline is 23ms

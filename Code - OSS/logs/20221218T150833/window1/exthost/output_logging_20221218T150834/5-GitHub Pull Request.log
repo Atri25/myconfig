@@ -1,0 +1,5 @@
+[Info] /home/atri/.ssh/config: ENOENT: no such file or directory, open '/home/atri/.ssh/config'
+[Info] Registering git provider
+[Info] Repository file:///home/atri/dmenu has been opened
+[Info] Repository file:///home/atri/dot has been opened
+[Info] Repository file:///home/atri/yay has been opened

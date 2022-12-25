@@ -1,0 +1,22 @@
+2022-12-17 22:42:55.291 [info] Log level: Info
+2022-12-17 22:42:55.291 [info] Validating found git in: "git"
+2022-12-17 22:42:55.291 [info] Using git "2.39.0" from "git"
+2022-12-17 22:42:55.291 [info] > git rev-parse --show-toplevel [3ms]
+2022-12-17 22:42:55.291 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2022-12-17 22:42:55.291 [info] Open repository: /home/atri/.config
+2022-12-17 22:42:55.291 [info] > git config --get commit.template [4ms]
+2022-12-17 22:42:55.367 [info] > git show --textconv :qtile/config.py [28ms]
+2022-12-17 22:42:55.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2022-12-17 22:42:55.377 [info] > git ls-files --stage -- /home/atri/.config/qtile/config.py [32ms]
+2022-12-17 22:42:55.381 [info] > git cat-file -s 2dfc4b10ef98ecda097a26a71cd84e1cc2565962 [1ms]
+2022-12-17 22:42:55.381 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2022-12-17 22:42:55.382 [info] > git status -z -uall [8ms]
+2022-12-17 22:42:55.443 [info] > git config --get commit.template [49ms]
+2022-12-17 22:42:55.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2022-12-17 22:42:55.465 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-17 22:42:55.469 [info] > git status -z -uall [7ms]
+2022-12-17 22:42:55.582 [info] > git check-ignore -v -z --stdin [12ms]
+2022-12-17 22:43:03.264 [info] > git config --get commit.template [2ms]
+2022-12-17 22:43:03.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2022-12-17 22:43:03.270 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-17 22:43:03.274 [info] > git status -z -uall [7ms]

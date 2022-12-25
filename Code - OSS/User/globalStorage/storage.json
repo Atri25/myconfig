@@ -2,18 +2,12 @@
     "telemetry.machineId": "9a8c9dd494e410032bdfe9be1d0f7710a68eb9ac53369afedfca9ea3426dc895",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1671275955484"
-            },
-            {
-                "backupFolder": "1671277277054"
-            },
-            {
-                "backupFolder": "1671277284061"
+                "folderUri": "file:///home/atri"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -53,10 +47,22 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/atri",
+                                        "path": "/home/atri",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/atri"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -120,23 +126,23 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/atri/.config/nvim/init.vim",
-                                        "path": "/home/atri/.config/nvim/init.vim",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/nvim/init.vim"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/atri/.config/qtile/config.py",
                                         "path": "/home/atri/.config/qtile/config.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config/qtile/config.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/atri/.config/nvim/init.vim",
+                                        "path": "/home/atri/.config/nvim/init.vim",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/nvim/init.vim"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -230,13 +236,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -251,6 +255,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)...",
@@ -333,13 +344,15 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -376,6 +389,22 @@
                         "label": "&&Copy"
                     },
                     {
+                        "id": "submenuitem.MenubarCopy",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "issue.copyGithubPermalink",
+                                    "label": "Copy GitHub Permalink"
+                                },
+                                {
+                                    "id": "issue.copyMarkdownGithubPermalink",
+                                    "label": "Copy GitHub Permalink as Markdown"
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "id": "editor.action.clipboardPasteAction",
                         "label": "&&Paste"
                     },
@@ -384,13 +413,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -537,7 +564,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -671,13 +699,6 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1301,6 +1322,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1438,11 +1464,6 @@
                 "label": "Ctrl+NumPad0",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1686,14 +1707,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 256,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/atri/.config/Code - OSS/Backups/1671275955484",
+            "folder": "file:///home/atri",
+            "backupPath": "/home/atri/.config/Code - OSS/Backups/b322d2d2786813581ad3f8e3fba56e32",
             "uiState": {
                 "mode": 1,
                 "x": 970,
