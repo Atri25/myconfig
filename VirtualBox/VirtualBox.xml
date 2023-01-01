@@ -8,15 +8,17 @@
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=b08e3e5a-a4e0-4338-8040-0c28ccf0882b"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="8,28,1900,1040"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=bf1a9107-f780-489b-8d6a-4c0610ded65e"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="10,42,1750,1028"/>
+      <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="10,42,1750,1028"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/atri/Downloads"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/atri/Downloads/linuxmint-21-cinnamon-64bit.iso"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/atri/Downloads/deepin-desktop-community-20.8-amd64.iso,/home/atri/Downloads/linuxmint-21-cinnamon-64bit.iso"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmGoingFullscreen"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{b08e3e5a-a4e0-4338-8040-0c28ccf0882b}" src="/home/atri/VirtualBox VMs/linux mint/linux mint.vbox"/>
+      <MachineEntry uuid="{bf1a9107-f780-489b-8d6a-4c0610ded65e}" src="/home/atri/VirtualBox VMs/deepin/deepin.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

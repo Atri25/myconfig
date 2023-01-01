@@ -1,0 +1,5 @@
+2023/01/01-12:10:06.055 2adb Recovering log #3
+2023/01/01-12:10:06.107 2adb Level-0 table #5: started
+2023/01/01-12:10:06.139 2adb Level-0 table #5: 2784740 bytes OK
+2023/01/01-12:10:06.150 2adb Delete type=3 #2
+2023/01/01-12:10:06.150 2adb Delete type=0 #3

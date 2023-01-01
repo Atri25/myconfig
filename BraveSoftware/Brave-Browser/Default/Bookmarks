@@ -1,0 +1,155 @@
+{
+   "checksum": "297e1fefd543e3510073e7f55f442bdf",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13284377730000000",
+            "date_last_used": "13315415303716591",
+            "guid": "abb95e48-2930-4626-96de-4e7b406ff8d8",
+            "id": "5",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13284534442000000",
+            "date_last_used": "0",
+            "guid": "a01af56c-0611-4efd-b9e4-4cd3079d4e53",
+            "id": "6",
+            "name": "Running WSL GUI Apps on Windows 10 - Microsoft Tech Community",
+            "type": "url",
+            "url": "https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242"
+         }, {
+            "date_added": "13284831839000000",
+            "date_last_used": "0",
+            "guid": "a2e2df01-4169-4343-a6f7-0dae90863f61",
+            "id": "7",
+            "name": "Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS. · Issue #5363 · microsoft/WSL",
+            "type": "url",
+            "url": "https://github.com/microsoft/WSL/issues/5363"
+         }, {
+            "date_added": "13285056571000000",
+            "date_last_used": "0",
+            "guid": "3ff79a69-0657-4048-a2b0-ff98b23fbfba",
+            "id": "8",
+            "name": "Register and Play CASHFLOW® Classic Here.",
+            "type": "url",
+            "url": "https://www.richdad.com/classic?game=-MruFZhb6Y2E-huIHZuN"
+         }, {
+            "date_added": "13286876251000000",
+            "date_last_used": "0",
+            "guid": "7ade7aeb-0a71-4b4e-9e55-86dfb8de1662",
+            "id": "9",
+            "name": "Chrome Web Store - Extensions",
+            "type": "url",
+            "url": "https://chrome.google.com/webstore/category/extensions?hl=en&gclid=Cj0KCQiAoY-PBhCNARIsABcz771SouPeEsSOjoQv77JbfO80siHTIU4ZppPEN0kw3pFxNZxxJsf0fMUaAqYCEALw_wcB"
+         }, {
+            "date_added": "13290623015454065",
+            "date_last_used": "13308991401003628",
+            "guid": "d4117310-2e27-4663-978d-57fd08ff6ce1",
+            "id": "10",
+            "name": "React – A JavaScript library for building user interfaces",
+            "type": "url",
+            "url": "https://reactjs.org/"
+         }, {
+            "date_added": "13313153180589516",
+            "date_last_used": "0",
+            "guid": "1cbe84fb-17a6-4e2e-ba0e-0d68e8b4a6a3",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "competition - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/0/folders/1YHZwSfcJ_WDk-7RYPBOy9cd2pE5lidia"
+         }, {
+            "date_added": "13290624492948588",
+            "date_last_used": "0",
+            "guid": "c763c190-b23e-4088-8782-438f144de917",
+            "id": "12",
+            "name": "JavaScript Refresher | Complete React Course in Hindi #3 - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=kFe-RRaOy48&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=3"
+         }, {
+            "date_added": "13290755575085960",
+            "date_last_used": "0",
+            "guid": "25b69ddb-9b1b-4507-8e52-93258f8a546e",
+            "id": "13",
+            "name": "Is there any way you can launch RL without the Epic games launcher ? : RocketLeague",
+            "type": "url",
+            "url": "https://www.reddit.com/r/RocketLeague/comments/j36oa9/is_there_any_way_you_can_launch_rl_without_the/"
+         }, {
+            "date_added": "13291891423501906",
+            "date_last_used": "0",
+            "guid": "699a0f02-ab9c-4060-9044-e800c129a7b5",
+            "id": "14",
+            "name": "Write an essay on how you spent the year 2021 and what are your hopes and aspirations for the year - Brainly.in",
+            "type": "url",
+            "url": "https://brainly.in/question/49205927"
+         }, {
+            "date_added": "13306498944694244",
+            "date_last_used": "0",
+            "guid": "c334475d-759e-4885-8191-c7b04bbc65e4",
+            "id": "15",
+            "name": "boot - System has not been booted with systemd as init system (PID 1). Can't operate - Ask Ubuntu",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate"
+         }, {
+            "date_added": "13306730733715456",
+            "date_last_used": "0",
+            "guid": "abf82816-0b6b-4e0d-89ac-565822d82433",
+            "id": "16",
+            "name": "Physics Handwritten notes Class 11 , 12 For IIT - JEE , NEET-UG pdf",
+            "type": "url",
+            "url": "https://www.jeeneetforall.in/2022/05/physics-handwritten-notes-for-class-11.html"
+         }, {
+            "date_added": "13306730390995774",
+            "date_last_used": "0",
+            "guid": "a12d8e2a-2704-4db2-8207-6f6a3dfd7806",
+            "id": "17",
+            "name": "[PDF]MOTION PHYSICS COMPLETE STUDY PACKAGE FOR JEE AND NEET NV SIR FREE PDF DOWNLOAD",
+            "type": "url",
+            "url": "https://www.jeeneetforall.in/2020/09/motion-physics-theory-notes-nv-sir.html"
+         }, {
+            "date_added": "13315416453232056",
+            "date_last_used": "0",
+            "guid": "6c09bb06-4f7e-4a26-9cb3-3d92234c0ed9",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CISCE",
+            "type": "url",
+            "url": "http://www.cisce.net.in/"
+         } ],
+         "date_added": "13316997575539413",
+         "date_last_used": "0",
+         "date_modified": "13315416453232056",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13316997575539415",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13316997575539415",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgqm/6iQrWEAAAAAEgAaWFYxcVJCZ05rYW1YWk9oYmduelRkMHFGeXJrU0NKODd0RHR1VUZFdDEvOW95NCtWWG40YVA0c29CTWs3Vms5WmFObmZUM0ZQbGV2NFpJWCt4ZDZ2SjRRPT0gASoYdHZkNUdaTnU2Y1BDZ0lrcGNHcUsydz09EqkBCBESpAEKHGNVM2ZFUlNBNHZ3R2IrVFFvYWJzRVNMVXlybz0SJDlhNzg5ZDg4LTA0MzgtNGQyYi05YzFkLTAyMTIxNGM0MzIwZhgAIAAoADD9g9XH1jA4q/TUx9YwQKv01MfWMEocNGk2RmNRK1dBaTNURWZBVmY5NFdmTUpyT0xNPVogIh7/9kYraFpQaWZzV0RYYWJnUGVnb1Y2UzV5RFRoRT1l/iA6/xKpAQgQEqQBChxOcWtPV2RZNDA3bVR3dmJtY2wrNVlhWkZ0b2M9EiQ4NTBhMjYxOS01MmIzLTQ3Y2UtOGQwNi02ZDE0ZmRhZGM5MzcYACAAKAAw24PVx9YwOKv01MfWMECr9NTH1jBKHFZMSFArcVFhblFmeFU4WmNMSWt2cTkyQTVqYz1aICIe/+1DckhzRHZBSzR4ZFlkZGJNc3ZNdXJrS2o2aWs9Zf4gOv8SqQEIDxKkAQocMUFsQ2c0cEdhV2RHRXlqWS8rbHZkLzIwODV3PRIkMWJmYWMyM2ItYTVjYS00NDY0LTlhNzItNmU5YTk5MDBkY2Q2GAAgACgAMI+E1cfWMDir9NTH1jBAq/TUx9YwShxWTkt3b1BQSTRFVnhzMDJtRGxBU3RNTk9KeTA9WiAiHv/bQzN5Z1lYdzAyUWFJZFRpUjc2UHY4VUgveVdnPWV2x51gEqkBCA4SpAEKHDFRZ3c3M1dqVGFVZzFlSzgwQXBYVFdRYnBHST0SJDI1OWNiM2U0LThjOGQtNDNhYy05ZmM4LTE4ODdjYzA3MTdmMxgAIAAoADDJg9XH1jA4q/TUx9YwQKv01MfWMEocaWlPOEVrRk5iVGlOSElGK2JZZGdHR0duRFdzPVogIh7/tlhvM202MHVLMnh2QnFrQjZGMTIrK3ZtaUJEaz1lC1LTsxKDAQgBEn8KHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDg4ODAzMjZiLThhMGEtNDhiMi1hMjBmLTQ1NjhhZDgxNGVlNBgAIAAoADABOJXy1MfWMECV8tTH1jBKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEqgBCA0SowEKHFRGSzBDQ0licEhBUWpUTU9kSmJKT0dNU0V5WT0SJDcxYWZiMDNlLTBiMDctNDdjMS1hMzdiLTdlM2YxYzg0YmQyZhgAIAAoADDhgtXH1jA4q/TUx9YwQKv01MfWMEocWWlTdkpCU24zd3hCL3dnSVZLSkFoYjlKTTlNPVofIh3/bEFZZjNsMEFNNmlnY2NCdjNtOWFnSzhxSnRZPWV20QkCEqkBCBISpAEKHE1FNDVnbC96Nk9PYjAxcmR4dUNxbEc2d2Vvbz0SJGIyZWNkYmZiLWMzZDQtNDlmMS1iZDQ1LWExMGY5ZWFmMGU4ORgAIAAoADCghNXH1jA4q/TUx9YwQKv01MfWMEocMmt6SWptYTYvamd5ZXpUUTVjdlFCSnJQSnc0PVogIh7/+2VaR0s2dDBCQUNhOXpVcmpFaWE1blRjRTdNdz1lAAAAABKoAQgMEqMBChwvb29mUGZrSjRLYTVtdjh4cmJCM1psejFSZDA9EiRkMWFmNmIyOC1hZjZlLTRlMTktYjdmMS0yNzg5YjRkOTFjYjgYACAAKAAwlIPVx9YwOKv01MfWMECr9NTH1jBKHE4wcnNXMlQ3U3lmMW9oeUVZZFUrdXh0akRiUT1aHyId/kZwWEtOKzJQcEpPb1VLK3RUdTllT2lNZjdRZz1lOPk5MxKoAQgKEqMBChw5ZG03YnNYOWpxRWo5anVxSm5BZ2M3KzNFcXc9EiQzOTRjYjQ4NS03NGE0LTQwMWUtODZmMS1jODM3MDhjNDY3YjYYACACKAIw07+UyNYwOKv01MfWMECP/MzR1jBKHHJSS0NVendCME93STJITVRpdVFwdUpiNndUcz1aHyId+0dxeHQ2SkxQWWhhQmZzQ0dud0djRlZvVmtUUT1lpp/d5hKoAQgJEqMBChxzcGlhOURRUEpkamdoaktBYXZpRTJaSE83ZHc9EiQ1MmZiMDE2OS03ZDNkLTQwZDYtYTMzZS02OTlmNmE3NjI5MzAYACACKAIwyb+UyNYwOKv01MfWMECP/MzR1jBKHEN0SlFVZng5MnpoeVprbGpWQ3VQQlhFYjVDYz1aHyId9jhvV3c4VGxiNWdBZmRzdGp5Q2J4aGNNMDhkND1lAB9HWxKoAQgIEqMBChxtYUtRUVRneHp4b1ppRFBIb010MGJDd0JXa1U9EiQ0NWE5NzQ3My02Yjk5LTQ4ZjQtOTY4Ny0zYTY1NWIwOWRhZDQYACACKAIwp7+UyNYwOKv01MfWMECP/MzR1jBKHG1JSnc1QjB2UHJEaXpZTUlkNHdzazZueXZuQT1aHyId7GN1bm1IYjRveVNrL1BYUkljbGEydDZHc3lSdz1lInCdRRKDAQgDEn8KHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGQ5OGVjNzdkLTdjYTItNDU1Yy04YzUzLWVkODk1NzU2ZDQ5MRgAIAAoADABOJXy1MfWMECV8tTH1jBKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqgBCAYSowEKHHRyZ3V5YVZKQlJLMENwVFh0emE3eGRVSU92Zz0SJGQxMzdmMWQ4LWUwOTktNGI1OC05Y2EwLTE4NDQ2ZjZmYjI5MRgAIAIoAjCwv5TI1jA4q/TUx9YwQI/8zNHWMEocQzhZRElad0xpVlZiVGl3bzhqYzAvT2hEZWd3PVofIh2zTnFTK1F3bmh0R0NlOG9kb3dldW1BbEx4by84PWWnHNIZEqgBCAcSowEKHDhTLytnVDFtMUZaVGt4LzJxN0YvLzlrV1FoWT0SJDMwYTQwZTU1LWM3MzAtNDRmYi04ZTRiLTMyZGI0YjFhMzBlNhgAIAIoAjDOv5TI1jA4q/TUx9YwQI/8zNHWMEocM0MwTWtvaG1HSDNrVmU5dzJKR3Y4MzZhM3JFPVofIh3ZQllDVjNwOTBCNkZna2lzRFduczc2aVhBVi9VPWUIDEouEqgBCAsSowEKHGFpajFsRHZGMFMvVUo2VCtPOGUydFEzM2VDMD0SJGZlZThmYjRjLWM3MjItNDk1Yi05NGZmLWIzYWIyYzliZjZmYxgAIAIoAjDBv5TI1jA4q/TUx9YwQJD8zNHWMEocU2hkMklBWmdtQ3NseDl0U0w5RXZnZVZKNTdJPVofIh39WUJrVkFwQTlhTU9hNEVPWnNqTmpMbCthOTFRPWX6kd7bEoMBCAISfwocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkOWJlOTcxMDAtNWRiMi00MTZhLWExZmUtZmU3OGFmZWVmNTgwGAAgACgAMAE4lfLUx9YwQJXy1MfWMEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASpwEIBRKiAQocMG5ZOVV0cnBlSmpwTGZ6elBSdmtDZHFEbXVBPRIkODlhNDdhYzUtNjBhNi00NThmLTk5NGUtZWIwZWY1ODU5MzZhGAAgAigCMLm/lMjWMDir9NTH1jBAjvzM0dYwShxTdWVoaHZWalFIQXhIaVhmeGRabFRVU3Vqd3M9Wh4iHGYydksvcHBrZ1lkVktja3FWQVo4Zm5nSnFPND1lOPk5MzABOAA=",
+   "version": 1
+}

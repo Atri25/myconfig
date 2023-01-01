@@ -1,0 +1,24 @@
+2022-12-31 22:05:16.453 [info] Extension host with pid 1071 started
+2022-12-31 22:05:16.527 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2022-12-31 22:05:16.527 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-31 22:05:16.528 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2022-12-31 22:05:16.559 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-31 22:05:16.559 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-31 22:05:16.595 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2022-12-31 22:05:16.617 [info] Eager extensions activated
+2022-12-31 22:05:16.626 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.626 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.626 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.626 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:16.627 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:05:17.214 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2022-12-31 22:06:35.885 [info] Extension host terminating: received terminate message from renderer
+2022-12-31 22:06:35.893 [info] Extension host with pid 1071 exiting with code 0

@@ -1,0 +1,2 @@
+2022-12-29 20:41:05.915 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/atri/.config/nvim/init.lua","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2022-12-29 20:41:08.770 [info] [perf] Render performance baseline is 17ms

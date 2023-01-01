@@ -1,0 +1,8 @@
+2022-12-29 20:53:28.952 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/atri/.config/nvim/init.vim","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2022-12-29 20:53:31.938 [info] [perf] Render performance baseline is 18ms
+2022-12-29 20:53:38.688 [error] Unable to read file '/home/atri/.config/nvim/init.lua' (Error: Unable to resolve nonexistent file '/home/atri/.config/nvim/init.lua'): Error: Unable to read file '/home/atri/.config/nvim/init.lua' (Error: Unable to resolve nonexistent file '/home/atri/.config/nvim/init.lua')
+    at h.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:16546)
+    at async v.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2491:34436)
+    at async v.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2491:34131)
+    at async Ms.Ab (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2480:54169)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2491:30190

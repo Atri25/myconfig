@@ -1,2 +1,3 @@
-2022/12/17-20:15:25.246 265c Creating DB /home/atri/.config/google-chrome/Default/shared_proto_db since it was missing.
-2022/12/17-20:15:25.251 265c Reusing MANIFEST /home/atri/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2022/12/28-08:46:20.728 154c Reusing MANIFEST /home/atri/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2022/12/28-08:46:20.728 154c Recovering log #3
+2022/12/28-08:46:20.730 154c Reusing old log /home/atri/.config/google-chrome/Default/shared_proto_db/000003.log 

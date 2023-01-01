@@ -5,7 +5,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1671970149466"
+                "backupFolder": "1672326666137"
             }
         ]
     },
@@ -57,12 +57,34 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/atri/Downloads",
+                                        "path": "/home/atri/Downloads",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/atri/.config/qtile",
                                         "path": "/home/atri/.config/qtile",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config/qtile"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/atri/.config",
+                                        "path": "/home/atri/.config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -131,29 +153,40 @@
                                     "label": "/home/atri"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/atri/Downloads",
-                                        "path": "/home/atri/Downloads",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/atri/.config/alacritty/alacritty.yml",
-                                        "path": "/home/atri/.config/alacritty/alacritty.yml",
+                                        "external": "file:///home/atri/.config/nvim/init.vim",
+                                        "path": "/home/atri/.config/nvim/init.vim",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/alacritty/alacritty.yml"
+                                    "label": "~/.config/nvim/init.vim"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/atri/.config/nvim/init.lua",
+                                        "path": "/home/atri/.config/nvim/init.lua",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/nvim/init.lua"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/atri/.config/picom.conf",
+                                        "path": "/home/atri/.config/picom.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/picom.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -170,12 +203,34 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/atri/.config/picom.conf",
-                                        "path": "/home/atri/.config/picom.conf",
+                                        "external": "file:///home/atri/.config/qtile/autostart.sh",
+                                        "path": "/home/atri/.config/qtile/autostart.sh",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/picom.conf"
+                                    "label": "~/.config/qtile/autostart.sh"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/atri/.config/qtile/config.py.bak",
+                                        "path": "/home/atri/.config/qtile/config.py.bak",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/qtile/config.py.bak"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/atri/.config/alacritty/alacritty.yml",
+                                        "path": "/home/atri/.config/alacritty/alacritty.yml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/alacritty/alacritty.yml"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -244,13 +299,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)...",
@@ -540,7 +588,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -679,13 +728,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -751,10 +793,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -778,7 +816,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -790,7 +829,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -799,7 +839,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1451,11 +1492,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1698,20 +1734,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/atri/.config/Code/Backups/1671970149466",
+            "backupPath": "/home/atri/.config/Code/Backups/1672326666137",
             "uiState": {
-                "mode": 0,
-                "x": 975,
-                "y": 558,
-                "width": 928,
-                "height": 504
+                "mode": 1,
+                "x": 13,
+                "y": 45,
+                "width": 1894,
+                "height": 1022
             }
         },
         "openedWindows": []

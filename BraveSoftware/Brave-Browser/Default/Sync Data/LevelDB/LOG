@@ -1,0 +1,6 @@
+2023/01/01-12:10:05.814 2aa7 Reusing MANIFEST /home/atri/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/01/01-12:10:05.815 2aa7 Recovering log #7
+2023/01/01-12:10:05.821 2aa7 Reusing old log /home/atri/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000007.log 
+2023/01/01-12:10:09.653 2ab3 Level-0 table #11: started
+2023/01/01-12:10:09.656 2ab3 Level-0 table #11: 77644 bytes OK
+2023/01/01-12:10:09.658 2ab3 Delete type=0 #7

@@ -1,2 +1,3 @@
-2022/12/17-20:15:25.169 2689 Creating DB /home/atri/.config/google-chrome/Default/Extension Scripts since it was missing.
-2022/12/17-20:15:25.185 2689 Reusing MANIFEST /home/atri/.config/google-chrome/Default/Extension Scripts/MANIFEST-000001
+2022/12/27-08:31:55.800 679 Reusing MANIFEST /home/atri/.config/google-chrome/Default/Extension Scripts/MANIFEST-000001
+2022/12/27-08:31:55.800 679 Recovering log #3
+2022/12/27-08:31:55.800 679 Reusing old log /home/atri/.config/google-chrome/Default/Extension Scripts/000003.log 

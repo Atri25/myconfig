@@ -1,6 +1,7 @@
-2022/12/25-16:23:42.663 461 Reusing MANIFEST /home/atri/.config/notion-app/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/25-16:23:42.663 461 Recovering log #27
-2022/12/25-16:23:42.673 461 Reusing old log /home/atri/.config/notion-app/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000027.log 
-2022/12/25-16:24:59.751 461 Level-0 table #32: started
-2022/12/25-16:24:59.813 461 Level-0 table #32: 1300778 bytes OK
-2022/12/25-16:24:59.814 461 Delete type=0 #27
+2022/12/28-12:55:02.567 614 Reusing MANIFEST /home/atri/.config/notion-app/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/28-12:55:02.567 614 Recovering log #46
+2022/12/28-12:55:02.569 614 Reusing old log /home/atri/.config/notion-app/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000046.log 
+2022/12/28-12:55:03.452 61e Compacting 1@1 + 1@2 files
+2022/12/28-12:55:03.470 61e Generated table #49@1: 12753 keys, 1200320 bytes
+2022/12/28-12:55:03.470 61e Compacted 1@1 + 1@2 files => 1200320 bytes
+2022/12/28-12:55:03.471 61e compacted to: files[ 0 0 1 0 0 0 0 ]

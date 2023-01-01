@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "js/background-bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/pirate_19.png",
+         "38": "images/pirate_38.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "Self Control"
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "A simple extension to keep you focused online",
+   "icons": {
+      "128": "images/pirate_128.png",
+      "16": "images/pirate_16.png",
+      "48": "images/pirate_48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAulQtNpiK9/ZXCoYxP/vqzsb1ZoP/pc/3ZYtOIQSQN8OH4mC5xLQ+OZeAWzxk7VuPQX9+PEt0dAhyGPnsepk304wkymBWLWS1rybJ5xToceGa0H/QD1VnEjfEpkh1hj4PZwxYlzjfcpf17W/AOc5DHcE+Iviq7HTxEtgzGBu5pNwjMwCCXkD78YKfXkioOPV/zVId9Z3rWdPBmbkZ6TW1AM9bRwG5+hRR2xt+DWVdsPqmDTyiEeh/al4EXThRlX35/MWpU999XJVikog1GrozO1EMArhQLNiocri+g5LMsDrUUnB+3O+Zyc3LASdaC7UFGjnQAVPctkkgc+OttFxf2wIDAQAB",
+   "manifest_version": 2,
+   "name": "Self Control",
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls>", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.2",
+   "web_accessible_resources": [ "html/*", "images/*" ]
+}

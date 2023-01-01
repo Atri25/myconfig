@@ -1,0 +1,4 @@
+2023-01-01 00:08:54.455 [info] update#setState idle
+2023-01-01 00:08:55.416 [info] Starting extension host with pid 1078 (fork() took 4 ms).
+2023-01-01 00:08:56.956 [info] Waiting for extension host with pid 1078 to exit.
+2023-01-01 00:08:57.038 [info] Extension host with pid 1078 exited with code: 0, signal: null.

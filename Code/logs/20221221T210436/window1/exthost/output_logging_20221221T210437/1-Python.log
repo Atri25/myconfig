@@ -1,6 +1,0 @@
-Experiment 'pythonaa' is active
-Experiment 'pythonSurveyNotificationcf' is active
-LSP Notebooks experiment is enabled
-LSP Notebooks interactive window support is enabled
-> conda info --json
-Python interpreter path: /bin/python

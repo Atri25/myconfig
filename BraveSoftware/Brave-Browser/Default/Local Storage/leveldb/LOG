@@ -1,0 +1,8 @@
+2023/01/01-12:10:05.800 3 Reusing MANIFEST /home/atri/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/01/01-12:10:05.800 3 Recovering log #6
+2023/01/01-12:10:05.809 3 Level-0 table #9: started
+2023/01/01-12:10:05.827 3 Level-0 table #9: 118047 bytes OK
+2023/01/01-12:10:05.830 3 Delete type=0 #6
+2023/01/01-12:10:22.191 3 Level-0 table #12: started
+2023/01/01-12:10:22.194 3 Level-0 table #12: 117888 bytes OK
+2023/01/01-12:10:22.195 3 Delete type=0 #10

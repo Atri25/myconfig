@@ -1,0 +1,19 @@
+{
+   "author": "Jonas Augsburger",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Get Material"
+   },
+   "description": "A developer tools color theme inspired by the Material Theme UI plugin for IntelliJ IDEA.",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnChj55lZ3vwWiOxfwZXi+p1RUgUi6Whs/y2ohAItsilKIogUhADqt06K56NP/OSke4+JZcZOSRXOHhMj7InT4zoq0vN0kCz6ORrQhan2DGttlcBj0XYbLbh1a8WsAWaD5OXc1T7CK/ZkxRJNtPRfiPeHo3PJIrbIxSs88l21smxRiW29aX0zN5NQlCM7xMRC5h716KGC3k3OKMga8Yy+lfy6P9Kw0Pg6eHwnvhp27lWch14edLYC4FQyxwZruCsMpxP1Ka6wwWybMHAGuqpXbhKXEiSqkUWuADYHmuMEVaQDVco56q/evAUVSo6yEgr3Q8ugQHzf2EhQRVqD3EMD6wIDAQAB",
+   "manifest_version": 2,
+   "name": "Material DevTools Theme",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

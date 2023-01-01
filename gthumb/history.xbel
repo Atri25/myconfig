@@ -3,21 +3,41 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/atri/.config" added="2022-12-25T12:02:04.459350Z" modified="2022-12-25T12:02:04.459352Z" visited="2022-12-25T12:02:04.459350Z">
+  <bookmark href="file:///home/atri/.config/qtile/dots/.config" added="2022-12-27T06:33:49.489589Z" modified="2022-12-27T06:33:49.489591Z" visited="2022-12-27T06:33:49.489589Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-12-25T12:02:04.459351Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-12-27T06:33:49.489590Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/atri/Pictures" added="2022-12-25T12:02:04.459353Z" modified="2022-12-25T12:02:04.459353Z" visited="2022-12-25T12:02:04.459353Z">
+  <bookmark href="file:///home/atri/.config/qtile/dots/.config/wallpapers" added="2022-12-27T06:33:49.489592Z" modified="2022-12-27T06:33:49.489593Z" visited="2022-12-27T06:33:49.489592Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-12-25T12:02:04.459353Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-12-27T06:33:49.489592Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/atri/.config" added="2022-12-27T06:33:49.489593Z" modified="2022-12-27T06:33:49.489594Z" visited="2022-12-27T06:33:49.489593Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-12-27T06:33:49.489593Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/atri/Pictures" added="2022-12-27T06:33:49.489595Z" modified="2022-12-27T06:33:49.489595Z" visited="2022-12-27T06:33:49.489595Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-12-27T06:33:49.489595Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>

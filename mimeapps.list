@@ -8,7 +8,8 @@ application/octet-stream=brave-browser.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-02JMC1.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-02JMC1.desktop;
 video/x-matroska=vlc.desktop;
-text/x-python=code.desktop;
+text/x-python=code.desktop;nvim.desktop;
+application/x-trash=code.desktop;Alacritty.desktop;
 
 [Default Applications]
 image/jpeg=mirage.desktop
@@ -35,3 +36,4 @@ x-scheme-handler/mailto=userapp-Thunderbird-02JMC1.desktop
 message/rfc822=userapp-Thunderbird-02JMC1.desktop
 x-scheme-handler/mid=userapp-Thunderbird-02JMC1.desktop
 x-scheme-handler/notion=notion-app.desktop
+application/x-trash=Alacritty.desktop

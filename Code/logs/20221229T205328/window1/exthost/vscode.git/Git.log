@@ -1,0 +1,28 @@
+2022-12-29 20:53:30.070 [info] Log level: Info
+2022-12-29 20:53:30.070 [info] Validating found git in: "git"
+2022-12-29 20:53:30.070 [info] Using git "2.39.0" from "git"
+2022-12-29 20:53:30.070 [info] > git rev-parse --show-toplevel [2ms]
+2022-12-29 20:53:30.070 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-12-29 20:53:30.070 [info] Open repository: /home/atri/.config
+2022-12-29 20:53:30.081 [info] > git config --get commit.template [5ms]
+2022-12-29 20:53:30.123 [info] > git show --textconv :nvim/init.vim [36ms]
+2022-12-29 20:53:30.123 [info] > git ls-files --stage -- /home/atri/.config/nvim/init.vim [34ms]
+2022-12-29 20:53:30.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [43ms]
+2022-12-29 20:53:30.145 [info] > git cat-file -s 289a8f23bf26b26f5763a86ef6ef486e5a29e1f4 [18ms]
+2022-12-29 20:53:30.146 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2022-12-29 20:53:30.338 [info] > git check-ignore -v -z --stdin [2ms]
+2022-12-29 20:53:30.450 [info] > git status -z -uall [319ms]
+2022-12-29 20:53:30.471 [info] > git config --get commit.template [0ms]
+2022-12-29 20:53:30.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2022-12-29 20:53:30.484 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2022-12-29 20:53:30.760 [info] > git status -z -uall [283ms]
+2022-12-29 20:53:33.393 [info] > git config --get commit.template [3ms]
+2022-12-29 20:53:33.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2022-12-29 20:53:33.398 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2022-12-29 20:53:33.662 [info] > git status -z -uall [267ms]
+2022-12-29 20:53:37.122 [info] > git show --textconv :nvim/init.lua [3ms]
+2022-12-29 20:53:37.122 [info] > git ls-files --stage -- /home/atri/.config/nvim/init.lua [1ms]
+2022-12-29 20:53:38.699 [info] > git config --get commit.template [0ms]
+2022-12-29 20:53:38.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2022-12-29 20:53:38.717 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2022-12-29 20:53:38.998 [info] > git status -z -uall [293ms]

@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/porNo_128.png",
+         "16": "icons/porNo_16.png",
+         "48": "icons/porNo_48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "PorNo!"
+   },
+   "author": "Vivek Bhookya | https://github.com/mrvivacious/PorNo-_Porn_Blocker",
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "lists.js", "firebaseStuff.js", "linkManager.js", "porNo.js", "NSFWSubredditDetection.js", "NSFWScrolllerDetection.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Beat porn once and for all. Redirect your temptations to wholesome and healthy outlets.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqD5s/cs4yg8ihZCG5DwqIPGx1yb2d/VWL8eW5YIXgpivN4QlAWw7jOFHwEMpVTcPbc3rmkZVI3Gkby2triGBNoK9AzB7+yN+0NPAuSU5McPCBN1ZNSms8Lv8jg1M/GEU9flUiZld3GRBWjw8XuWj2uaPwH4O7kG8sZu/oxSt2Y2ZDY0bbjy7PQ7aRlRGLhWjwKBA6KgPPy3MwyxSbD3eSVkudN1yDBh4rsjDaFUxWhkfWInJ8UTIBOY/kbbqu4sqmve7rS5VF6xFU+PBvw9bwvC1XHthCqanzOkLXxogZZHVUsDsSB69+VpTr/BXCp0jHwUTeetyoIJcLXISUfhIHwIDAQAB",
+   "manifest_version": 3,
+   "name": "PorNo! Porn Blocker (Beta)",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1.9"
+}

@@ -1,0 +1,11 @@
+div[role="gridcell"] svg {
+    filter: none !important;
+}
+
+div[role="link"] svg {
+    filter: none !important;
+}
+
+.link-management-drop-down-icon {
+    filter: invert(85%);
+}

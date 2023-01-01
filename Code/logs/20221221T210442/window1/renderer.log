@@ -1,7 +1,0 @@
-2022-12-21 21:04:45.447 [error] Unable to read file '/home/atri/.config/qtile/core/keys.py' (Error: File not modified since): Error: Unable to read file '/home/atri/.config/qtile/core/keys.py' (Error: File not modified since)
-    at h.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:16493)
-    at async v.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2491:34436)
-    at async v.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2491:34131)
-    at async Ms.Ab (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2480:54169)
-    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2491:30190
-2022-12-21 21:04:45.795 [info] [perf] Render performance baseline is 28ms

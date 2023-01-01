@@ -1,0 +1,3 @@
+2022/12/31-22:14:15.806 2057 Creating DB /home/atri/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/12/31-22:14:15.810 2057 Reusing MANIFEST /home/atri/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/31-22:14:15.953 15ca Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

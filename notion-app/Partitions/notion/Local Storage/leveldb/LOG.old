@@ -1,30 +1,23 @@
-2022/12/25-08:30:16.065 42fc Reusing MANIFEST /home/atri/.config/notion-app/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
-2022/12/25-08:30:16.066 42fc Recovering log #244
-2022/12/25-08:30:16.067 42fc Reusing old log /home/atri/.config/notion-app/Partitions/notion/Local Storage/leveldb/000244.log 
-2022/12/25-08:31:16.610 42fb Level-0 table #248: started
-2022/12/25-08:31:16.614 42fb Level-0 table #248: 342513 bytes OK
-2022/12/25-08:31:16.615 42fb Delete type=0 #244
-2022/12/25-08:32:16.610 435e Level-0 table #250: started
-2022/12/25-08:32:16.611 435e Level-0 table #250: 19165 bytes OK
-2022/12/25-08:32:16.613 435e Delete type=0 #247
-2022/12/25-08:40:22.595 435e Level-0 table #252: started
-2022/12/25-08:40:22.597 435e Level-0 table #252: 9834 bytes OK
-2022/12/25-08:40:22.598 435e Delete type=0 #249
-2022/12/25-08:40:22.598 43e3 Compacting 4@0 + 1@1 files
-2022/12/25-08:40:22.603 43e3 Generated table #253@0: 306 keys, 367981 bytes
-2022/12/25-08:40:22.603 43e3 Compacted 4@0 + 1@1 files => 367981 bytes
-2022/12/25-08:40:22.604 43e3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/25-08:40:22.604 43e3 Delete type=2 #252
-2022/12/25-08:40:22.604 43e3 Delete type=2 #245
-2022/12/25-08:40:22.604 43e3 Delete type=2 #243
-2022/12/25-08:40:22.604 43e3 Delete type=2 #250
-2022/12/25-08:40:22.604 43e3 Delete type=2 #248
-2022/12/25-09:00:22.579 43e3 Level-0 table #255: started
-2022/12/25-09:00:22.580 43e3 Level-0 table #255: 16441 bytes OK
-2022/12/25-09:00:22.582 43e3 Delete type=0 #251
-2022/12/25-09:14:37.204 435e Level-0 table #257: started
-2022/12/25-09:14:37.206 435e Level-0 table #257: 16542 bytes OK
-2022/12/25-09:14:37.208 435e Delete type=0 #254
-2022/12/25-09:40:22.589 435e Level-0 table #259: started
-2022/12/25-09:40:22.591 435e Level-0 table #259: 16523 bytes OK
-2022/12/25-09:40:22.593 435e Delete type=0 #256
+2022/12/28-08:47:56.196 1dfd Reusing MANIFEST /home/atri/.config/notion-app/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2022/12/28-08:47:56.196 1dfd Recovering log #366
+2022/12/28-08:47:56.196 1dfd Level-0 table #369: started
+2022/12/28-08:47:56.198 1dfd Level-0 table #369: 9398 bytes OK
+2022/12/28-08:47:56.199 1dfd Delete type=0 #366
+2022/12/28-08:48:56.495 1e5f Level-0 table #372: started
+2022/12/28-08:48:56.497 1e5f Level-0 table #372: 12746 bytes OK
+2022/12/28-08:48:56.498 1e5f Delete type=0 #370
+2022/12/28-08:49:56.494 1e5f Level-0 table #374: started
+2022/12/28-08:49:56.498 1e5f Level-0 table #374: 331056 bytes OK
+2022/12/28-08:49:56.500 1e5f Delete type=0 #371
+2022/12/28-08:49:56.500 1e62 Compacting 4@0 + 1@1 files
+2022/12/28-08:49:56.505 1e62 Generated table #375@0: 451 keys, 377602 bytes
+2022/12/28-08:49:56.505 1e62 Compacted 4@0 + 1@1 files => 377602 bytes
+2022/12/28-08:49:56.506 1e62 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/28-08:49:56.506 1e62 Delete type=2 #365
+2022/12/28-08:49:56.506 1e62 Delete type=2 #369
+2022/12/28-08:49:56.506 1e62 Delete type=2 #367
+2022/12/28-08:49:56.506 1e62 Delete type=2 #374
+2022/12/28-08:49:56.506 1e62 Delete type=2 #372
+2022/12/28-09:05:41.924 1e62 Level-0 table #377: started
+2022/12/28-09:05:41.925 1e62 Level-0 table #377: 8814 bytes OK
+2022/12/28-09:05:41.926 1e62 Delete type=0 #373
